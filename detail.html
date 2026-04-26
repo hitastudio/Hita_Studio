@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Game | Hita Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body class="bright-archive-body">
+
+    <div class="transition-wipe" id="wipe-in"></div>
+
+    <div class="archive-container">
+        <header class="archive-header">
+            <div class="nav-top">
+                <a href="proyek-game.html" class="btn-back transition-link">◄ KEMBALI KE KATALOG</a>
+            </div>
+        </header>
+
+        <main class="container">
+            <div class="detail-split-layout">
+                
+                <div class="detail-left-column">
+                    <section class="pixel-box-bright media-container">
+                        <div class="video-wrapper" id="main-media-display">
+                            <iframe id="game-video" src="" frameborder="0" allowfullscreen></iframe>
+                            <img id="game-image-fallback" src="" alt="Main Highlight">
+                        </div>
+                        
+                        <div id="game-gallery" class="screenshot-gallery drag-scroll">
+                            </div>
+                    </section>
+                </div>
+
+                <div class="detail-right-column">
+                    <section class="pixel-box-bright info-container">
+                        
+                        <div class="game-identity-sidebar">
+                            <img id="game-icon" src="" class="game-icon" alt="Icon">
+                            <div class="game-title-area">
+                                <h1 id="game-title" class="pixel-text-bright">Loading...</h1>
+                                <p id="game-category">...</p>
+                            </div>
+                        </div>
+
+                        <div class="game-about-section">
+                            <h2 style="color: #FF4500; font-size: 2rem; margin-bottom: 10px;">Tentang Game Ini</h2>
+                            <p id="game-desc" style="color: #444; line-height: 1.5; font-size: 20px;">...</p>
+                        </div>
+
+                        <div id="action-buttons" class="action-buttons-sidebar">
+                            </div>
+                        
+                    </section>
+                </div>
+
+            </div> </main>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script>
+        const gameDB = {
+
+            "eatherwave": {
+                title: "Eatherwave Isle",
+                category: "Hita Studio • Survival Resource",
+                icon: "https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxMS5wbmc=/794x1000/0%2BAA62.png",
+                videoID: "QRFR7WfXpMI",
+                desc: "Bertahan hidup di pulau piksel 2D dengan mengumpulkan sumber daya, membangun tempat berlindung, dan memperkuat markasmu. Siang hari adalah waktumu untuk menjelajah dan membuat peralatan, sementara malam hari membawa gelombang monster yang tak henti-hentinya. Susun strategi, tingkatkan pertahananmu, dan lihat berapa lama kamu bisa bertahan.",
+                links: [
+                    { text: "► DOWNLOAD (WIN)", url: "https://hita-studio.itch.io/eather" }
+                ],
+                gallery: ["https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxMC5wbmc=/347x500/mGjGL7.png","https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxNC5wbmc=/347x500/xisEs1.png","https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxNS5wbmc=/347x500/OAqfP8.png","https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxMS5wbmc=/794x1000/0%2BAA62.png"]
+            },
+
+            "lumina": {
+                title: "Lumina",
+                category: "Hita Studio • Tower Defense",
+                icon: "https://img.itch.zone/aW1nLzI2NjI5NjM4LnBuZw==/315x250%23c/F1LgPQ.png",
+                videoID: "DRVLYRUtJII", 
+                desc: "Bumi telah kehilangan hampir seluruh sumber kehidupannya. Di tengah tanah yang retak dan gersang, tumbuh satu pohon bercahaya yang menjadi harapan terakhir restorasi planet. Sayangnya, cahaya energi pohon tersebut menarik perhatian koloni alien. Sebagai satu-satunya manusia yang tersisa di sektor itu, pemain harus membangun senjata dan benteng perlindungan untuk menjaga pohon.",
+                links: [
+                    { text: "► DOWNLOAD (WIN)", url: "https://hita-studio.itch.io/lumina-akar-terakhir" },
+                ],
+                gallery: ["https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1Ny5wbmc=/347x500/4iYLY8.png", "https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1NS5wbmc=/347x500/i4%2BDhK.png", "https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU2MC5wbmc=/original/kV0Vqw.png", "https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1OS5wbmc=/original/1BUgNl.png", "https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1OC5wbmc=/347x500/9xt0mA.png", "https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1Ni5wbmc=/347x500/xWCh9d.png"]
+            },
+            "unmasked": {
+                title: "UNMASKED",
+                category: "Hita Studio • 3D Platformer",
+                icon: "https://img.itch.zone/aW1nLzI1NTg5NDk0LnBuZw==/315x250%23c/2uRi%2Bj.png",
+                videoID: "", 
+                desc: "UNMASKED adalah game platformer 3D minimalis tentang persepsi dan memori. Anda bermain sebagai sosok putih yang menjelajahi dunia yang monoton. Awalnya, semuanya tampak kosong dan sama, sampai Anda menemukan topeng hitam. Saat topeng dikenakan, platform dan jalur tersembunyi akan terlihat. Namun ada kendalanya, Anda tidak dapat bergerak saat mengenakan topeng. Untuk maju, Anda harus mengamati, mengingat, dan bergerak tanpa melihat.",
+                links: [
+                    { text: "► ITCH.IO", url: "https://hita-studio.itch.io/unmasked" }
+                ],
+                gallery: ["https://ggjv4.s3.us-west-1.amazonaws.com/files/styles/flexslider_full/s3/games/2026/864713/screenshot/Screenshot%202026-02-01%20163255.png?VersionId=3coHu.chQwYHxFf4EM_DLSQ1sb8Enz81&itok=yqQhdfLI", "https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMS5wbmc=/794x1000/EVNnpj.png", "https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMy5wbmc=/794x1000/NEv6a6.png", "https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMi5wbmc=/794x1000/fGSxVX.png"]
+            },
+            "thinkcode3d": {
+                title: "Think & Code 3D",
+                category: "Hita Studio • Educational",
+                icon: "asset/game/think and code 3d/logo.png",
+                videoID: "",
+                desc: "Di game ini, pemain belajar memahami cara kerja pemrograman dasar seperti perintah gerak, pengulangan, dan logika, sambil memecahkan tantangan secara bertahap. Tujuannya bukan hanya menang, tapi melatih cara berpikir terstruktur, efisien, dan kreatif lewat kode.",
+                links: [
+                    { text: "► MAIN DI WEB", url: "https://hitastudio.github.io/think-and-code-3d/" },
+                    { text: "► DOWNLOAD", url: "https://hitastudio.github.io/testing-think-and-code-3d/" }
+                ],
+                gallery: ["asset/game/think and code 3d/ss1.png", "asset/game/think and code 3d/ss2.png", "asset/game/think and code 3d/ss3.png", "asset/game/think and code 3d/ss4.png", "asset/game/think and code 3d/ss5.png", "asset/game/think and code 3d/ss6.png", "asset/game/think and code 3d/ss7.png", "asset/game/think and code 3d/logo.png"]
+            },
+            "thinkcode": {
+                title: "Think & Code",
+                category: "Hita Studio • Educational Web",
+                icon: "https://raw.githubusercontent.com/hitastudio/Think-and-Code/refs/heads/main/index.icon.png",
+                videoID: "",
+                desc: "Game edukasi berbasis web yang dirancang untuk membantu anak mengenal dasar logika pemrograman dengan cara yang menyenangkan.",
+                links: [
+                    { text: "► MAIN DI WEB", url: "https://hitastudio.github.io/Think-and-Code/" }
+                ],
+                gallery: ["asset/game/think and code/ss1.png","asset/game/think and code/ss2.png","asset/game/think and code/ss3.png", "asset/game/think and code/ss4.png","asset/game/think and code/ss5.png", "https://raw.githubusercontent.com/hitastudio/Think-and-Code/refs/heads/main/index.icon.png"]
+            },
+            "suaralorong": {
+                title: "Suara Lorong",
+                category: "Gemilang Studio • Psychological Horror",
+                icon: "https://img.itch.zone/aW1hZ2UvMzg3ODMyNS8yMzE0MDA0Ny5wbmc=/794x1000/WQhPiE.png",
+                videoID: "",
+                desc: "'Biskuit mereka bikin kamu kenyang. Biskuit mereka bikin anakku sakit. Sepatumu.... tidak bisa menutupi langkahmu.' <br>Kamu pikir dia gila. Tapi semakin lama kamu bersamanya di lorong ini, semakin masuk akal omongannya. <br> <strong>Suara Lorong</strong> adalah horor naratif psikologis dengan tema perdamaian, kesedihan, dan paranoia.",
+                links: [
+                    { text: "► DOWNLOAD (WIN)", url: "https://gemilang-studio.itch.io/suara-lorong" }
+                ],
+                gallery: ["https://img.itch.zone/aW1hZ2UvMzg3ODMyNS8yMzE0MDA0OS5wbmc=/794x1000/m%2Fqspa.png","https://img.itch.zone/aW1hZ2UvMzg3ODMyNS8yMzE0MDA1MC5wbmc=/794x1000/KakGaW.png","https://img.itch.zone/aW1hZ2UvMzg3ODMyNS8yMzE0MDA0OC5wbmc=/794x1000/MJhseT.png","https://img.itch.zone/aW1hZ2UvMzg3ODMyNS8yMzE0MDA0Ny5wbmc=/794x1000/WQhPiE.png"]
+            },
+            "keyofhell": {
+                title: "Key Of Hell",
+                category: "Hita Studio • Action / Wave Survival",
+                icon: "https://img.itch.zone/aW1nLzIzMzk3NTI0LmpwZw==/315x250%23c/Cw1Y%2Fs.jpg",
+                videoID: "",
+                desc: "Kunci ini bukan sekadar benda biasa, ia memegang kekuatan untuk membuka neraka bagi monster lainnya. Banyak makhluk yang mengincarnya, siap melakukan apa pun untuk merebutnya. Tugasmu adalah melindungi kunci berharga ini dari cengkeraman mereka, menghadapi monster gelombang yang tak mengenal ampun, dan memastikan dunia tidak terjerumus ke dalam kekacauan yang mengerikan.",
+                links: [
+                    { text: "► DOWNLOAD (WIN)", url: "https://hita-studio.itch.io/key-of-hell" }
+                ],
+                gallery: ["https://img.itch.zone/aW1nLzIzNDA3NDA4LnBuZw==/original/JEt3e0.png","https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzU5OC5wbmc=/794x1000/Y2MkMg.png", "https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzYwMS5wbmc=/794x1000/dYH9AN.png", "https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzkyMy5wbmc=/794x1000/sV41Ru.png", "https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzYwMi5wbmc=/794x1000/BLMb5Q.png"]
+            },
+            "deathmech": {
+                title: "Death Mechanism",
+                category: "Hita Studio • Puzzle Platformer",
+                icon: "https://img.itch.zone/aW1nLzIzNDY2MjExLnBuZw==/315x250%23c/Iy4n1O.png",
+                videoID: "",
+                desc: "Jelajahi teka-teki di mana kematian hanyalah permulaan! Gunakan mayat karaktermu sendiri untuk memecahkan teka-teki dan melanjutkan perjalanan.",
+                links: [
+                    { text: "► DOWNLOAD (WIN)", url: "https://hita-studio.itch.io/death-mechanism" }
+                ],
+                gallery: ["https://img.itch.zone/aW1hZ2UvMzkzNTg1Ny8yMzQ2NjIyNi5wbmc=/347x500/rKEJIa.png","https://img.itch.zone/aW1hZ2UvMzkzNTg1Ny8yMzQ2NjIyNS5wbmc=/794x1000/VuQzYV.png", "https://img.itch.zone/aW1hZ2UvMzkzNTg1Ny8yMzQ2NjIyNy5wbmc=/347x500/9d98KE.png"]
+            }
+
+        };
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const gameId = urlParams.get('id');
+
+            if(gameId && gameDB[gameId]) {
+                const data = gameDB[gameId];
+                
+                document.title = data.title + " | Hita Studio";
+                document.getElementById('game-title').innerHTML = data.title;
+                document.getElementById('game-category').innerHTML = data.category;
+                document.getElementById('game-icon').src = data.icon;
+                document.getElementById('game-desc').innerHTML = data.desc;
+
+                const btnsContainer = document.getElementById('action-buttons');
+                data.links.forEach(linkObj => {
+                    btnsContainer.innerHTML += `
+                        <a href="${linkObj.url}" class="btn-play-huge" target="_blank" rel="noopener noreferrer">
+                            ${linkObj.text}
+                        </a>
+                    `;
+                });
+
+
+                if(data.videoID) {
+                    document.getElementById('game-video').src = "https://www.youtube.com/embed/" + data.videoID;
+                    document.getElementById('game-video').style.display = 'block';
+                    document.getElementById('game-image-fallback').style.display = 'none';
+                    document.getElementById('main-media-display').style.display = 'block';
+                } else if (data.gallery && data.gallery.length > 0) {
+                    document.getElementById('game-video').style.display = 'none';
+                    document.getElementById('game-image-fallback').src = data.gallery[0];
+                    document.getElementById('game-image-fallback').style.display = 'block';
+                    document.getElementById('main-media-display').style.display = 'block';
+                } else {
+                    document.getElementById('main-media-display').style.display = 'none';
+                }
+
+                const galleryContainer = document.getElementById('game-gallery');
+                                
+                data.gallery.forEach((imgUrl, index) => {
+                    if(index > 0) {
+                        galleryContainer.innerHTML += `<img src="${imgUrl}" alt="Screenshot">`;
+                    }
+                });
+
+                const slider = document.querySelector('.drag-scroll');
+                let isDown = false;
+                let startX;
+                let scrollLeft;
+
+                slider.addEventListener('mousedown', (e) => {
+                    isDown = true;
+                    slider.classList.add('active');
+                    startX = e.pageX - slider.offsetLeft;
+                    scrollLeft = slider.scrollLeft;
+                });
+                slider.addEventListener('mouseleave', () => {
+                    isDown = false;
+                    slider.classList.remove('active');
+                });
+                slider.addEventListener('mouseup', () => {
+                    isDown = false;
+                    slider.classList.remove('active');
+                });
+                slider.addEventListener('mousemove', (e) => {
+                    if(!isDown) return;
+                    e.preventDefault();
+                    const x = e.pageX - slider.offsetLeft;
+                    const walk = (x - startX) * 2;
+                    slider.scrollLeft = scrollLeft - walk;
+                });
+
+            } else {
+                document.getElementById('game-title').innerHTML = "Game Tidak Ditemukan!";
+                document.getElementById('game-desc').innerHTML = "Sepertinya game yang kamu cari belum dirilis atau salah link.";
+                document.querySelector('.media-container').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
