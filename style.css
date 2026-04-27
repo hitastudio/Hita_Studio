@@ -5,13 +5,14 @@
     box-sizing: border-box;
     image-rendering: pixelated; 
 }
-
+html, body {
+    overflow-x: hidden; 
+}
 body {
     font-family: 'VT323', monospace;
     font-size: 20px;
     color: #FFF;
     background-color: #87CEEB; 
-    overflow-x: hidden;
 }
 
 /*LANGIT (SKY LAYER) & HEADER*/
@@ -87,6 +88,7 @@ body {
     background-image: url('asset/world/laut.png');
     background-repeat: repeat; 
     animation: infiniteWaves 3s linear infinite;
+
 }
 
 @keyframes infiniteWaves {
