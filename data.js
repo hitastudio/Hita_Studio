@@ -6,7 +6,7 @@ const siteData = {
             deskripsi: "Di game ini, pemain belajar memahami cara kerja pemrograman dasar seperti perintah gerak, pengulangan, dan logika, sambil memecahkan tantangan secara bertahap.", 
             status: "Dalam Pengembangan", 
             platform: "Windows,Web,Android", 
-            gambar: "https://hitastudio.github.io/Hita_Studio/asset/game/think%20and%20code%203d/logo.png", 
+            gambar: "image/Game/Think and Code 3D/hita.png", 
             link: "https://hitastudio.github.io/testing-think-and-code-3d/" 
         },
         { 
