@@ -1,162 +1,242 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hita Studio | Indie Game Developer</title>
-    <link rel="icon" href="asset/logo.png" type="image/png">
-    <meta name="description" content="Hita Studio adalah studio game indie independen yang berfokus pada pengembangan karya interaktif 2D dan 3D, game edukasi, serta proyek Game Jam.">
-    <meta name="keywords" content="Hita Studio, Indie Game Developer, Developer Game Indonesia, Godot Engine, Game Edukasi, Think and Code", Studio game, Studio Indonesia>
-    <meta name="author" content="Hita Studio">
-    <meta name="google-site-verification" content="LnTd9Wrcd3ZHrS4UcaaDF0IN2gSpoKf6bJAHh3w0uBk" />
+    <title>Hita Studio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="antialiased relative bg-gray-50 text-gray-900 overflow-x-hidden">
 
-    <div class="transition-wipe" id="wipe-in"></div>
+    <div class="absolute top-0 right-0 w-full md:w-2/3 h-2/3 bg-brand-500/5 blur-[120px] md:blur-[150px] rounded-full pointer-events-none z-0"></div>
 
-    <div class="sky-layer">
-        
-        <div class="clouds-layer">
-            <div class="clouds-track ultra-slow">
-                <div class="cloud-group">
-                    <img src="asset/world/awan.png" class="cloud c7"><img src="asset/world/awan.png" class="cloud c8">
-                    <img src="asset/world/awan.png" class="cloud c9"><img src="asset/world/awan.png" class="cloud c10">
-                    <img src="asset/world/awan.png" class="cloud c7"><img src="asset/world/awan.png" class="cloud c8">
-                    <img src="asset/world/awan.png" class="cloud c9"><img src="asset/world/awan.png" class="cloud c10">
+    <nav class="fixed w-full z-50 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center select-none cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <img src="image/Logo/Icon Hita.png" alt="Hita Studio Logo" class="h-10 md:h-12 w-auto object-contain hover:scale-105 transition-transform duration-300" onerror="this.src='https://ui-avatars.com/api/?name=Hita+Studio&background=f97316&color=fff'">
                 </div>
-                <div class="cloud-group">
-                    <img src="asset/world/awan.png" class="cloud c7"><img src="asset/world/awan.png" class="cloud c8">
-                    <img src="asset/world/awan.png" class="cloud c9"><img src="asset/world/awan.png" class="cloud c10">
-                    <img src="asset/world/awan.png" class="cloud c7"><img src="asset/world/awan.png" class="cloud c8">
-                    <img src="asset/world/awan.png" class="cloud c9"><img src="asset/world/awan.png" class="cloud c10">
-                </div>
-            </div>
-
-            <div class="clouds-track slow">
-                <div class="cloud-group">
-                    <img src="asset/world/awan.png" class="cloud c1"><img src="asset/world/awan.png" class="cloud c2">
-                    <img src="asset/world/awan.png" class="cloud c3"><img src="asset/world/awan.png" class="cloud c1">
-                    <img src="asset/world/awan.png" class="cloud c11"><img src="asset/world/awan.png" class="cloud c3">
-                    <img src="asset/world/awan.png" class="cloud c1"><img src="asset/world/awan.png" class="cloud c2">
-                </div>
-                <div class="cloud-group">
-                    <img src="asset/world/awan.png" class="cloud c1"><img src="asset/world/awan.png" class="cloud c2">
-                    <img src="asset/world/awan.png" class="cloud c3"><img src="asset/world/awan.png" class="cloud c1">
-                    <img src="asset/world/awan.png" class="cloud c11"><img src="asset/world/awan.png" class="cloud c3">
-                    <img src="asset/world/awan.png" class="cloud c1"><img src="asset/world/awan.png" class="cloud c2">
-                </div>
-            </div>
-            
-            <div class="clouds-track fast">
-                <div class="cloud-group">
-                    <img src="asset/world/awan.png" class="cloud c4"><img src="asset/world/awan.png" class="cloud c5">
-                    <img src="asset/world/awan.png" class="cloud c6"><img src="asset/world/awan.png" class="cloud c12">
-                    <img src="asset/world/awan.png" class="cloud c5"><img src="asset/world/awan.png" class="cloud c6">
-                </div>
-                <div class="cloud-group">
-                    <img src="asset/world/awan.png" class="cloud c4"><img src="asset/world/awan.png" class="cloud c5">
-                    <img src="asset/world/awan.png" class="cloud c6"><img src="asset/world/awan.png" class="cloud c12">
-                    <img src="asset/world/awan.png" class="cloud c5"><img src="asset/world/awan.png" class="cloud c6">
-                </div>
-            </div>
-
-            
-        </div>
-
-        <header class="sky-header">
-            <h1 class="pixel-text-bright">HITA STUDIO</h1>
-            <p>Independent Game Development Studio</p>
-        </header>
-
-    </div>
-
-    <div class="sea-and-depth">
-        <div class="island-chain">
-            <img src="asset/world/pulau.png" class="island-img">
-            <img src="asset/world/pulau.png" class="island-img">
-            <img src="asset/world/pulau.png" class="island-img">
-            <img src="asset/world/pulau.png" class="island-img">
-            <img src="asset/world/pulau.png" class="island-img">
-            <img src="asset/world/pulau.png" class="island-img">
-            <img src="asset/world/pulau.png" class="island-img">
-            <img src="asset/world/pulau.png" class="island-img">
-            <img src="asset/world/pulau.png" class="island-img">
-        </div>
-
-        <div class="content-wrapper">
-            <main class="container">
                 
-<section class="pixel-box-water">
-    <h2 class="section-title-water">Tentang Studio Kami</h2>
-    <p style="font-size: 20px; line-height: 1.2; color: #FFF;">
-        Hita Studio merupakan studio game indie independen yang berfokus pada pengembangan karya interaktif berbasis 2D dan 3D. Kami aktif melakukan eksperimen mekanik permainan dan rutin berpartisipasi dalam berbagai ajang kompetisi pengembangan game, baik di tingkat lokal maupun internasional. kami telah menghasilkan berbagai judul game dengan genre yang beragam, mulai dari simulasi, puzzle platformer, hingga survival. Fokus utama kami adalah memastikan setiap elemen teknis dan visual dalam game mampu memberikan pengalaman bermain yang fungsional bagi para pemain.
-    </p>
-</section>
+                <div class="hidden md:flex items-center space-x-6 lg:space-x-8">
+                    <a href="#about" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition">Beranda</a>
+                    <a href="#karya" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition">Games & Devlog</a>
+                    <a href="#pencapaian" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition">Pengalaman</a>
+                    <a href="#dukung" class="text-sm font-bold bg-brand-50 text-brand-600 border border-brand-200 px-4 py-2 rounded-lg hover:bg-brand-500 hover:text-white transition">Dukung Kami</a>
+                </div>
 
-                <section class="pixel-box-water">
-                    <h2 class="section-title-water">Eksplorasi</h2>
-                    <p style="margin-bottom: 25px; color: #E0FFFF; font-size: 16px;">
-                        > PILIH MENU DI BAWAH UNTUK MELANJUTKAN
-                    </p>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-brand-600 focus:outline-none p-2 -mr-2">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-28 pb-16 md:pt-32 md:pb-20 lg:pt-40 lg:pb-32 relative z-10 min-h-[90vh] flex items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative w-full">
+            
+            <div class="flex flex-col lg:flex-row items-center gap-8 md:gap-12 lg:gap-16">
+                
+                <div class="contents lg:block w-full lg:w-1/2">
                     
-                    <div class="project-grid">
-                        <a href="proyek-game.html" class="project-card-water transition-link">
-                            <h3>Katalog Game</h3>
-                            <p>Lihat koleksi lengkap game rilis, purwarupa (prototype), dan proyek Game Jam kami.</p>
-                            <span class="tag game-tag">Play Now</span>
-                        </a>
+                    <div class="order-1 lg:order-none w-full flex items-center justify-center lg:justify-start mb-0 lg:mb-6 animate-fade-in-up delay-100">
+                        <div id="hero-platforms" class="inline-flex flex-wrap justify-center lg:justify-start items-center gap-2 md:gap-3 px-4 md:px-5 py-2 md:py-2.5 rounded-full border border-gray-200 bg-white shadow-sm transition-opacity duration-300"></div>
                     </div>
-                </section>
-                
-
-
-
-                <section class="pixel-box-water">
-                    <h2 class="section-title-water">Jurnal Petualangan</h2>
                     
-                    <div class="event-card">
-                        <div class="event-header">
-                            <h3>Expo Prodi TRPL Polinela</h3>
-                            <span class="event-tag">Pameran Edukasi</span>
-                        </div>
-                        <p>Kami hadir berpartisipasi dalam pameran teknologi yang diselenggarakan oleh program studi TRPL Polinela. Pada kesempatan ini, Hita Studio memamerkan <strong>"Think and Code"</strong>—sebuah game edukasi interaktif yang dirancang khusus untuk mengajarkan logika dasar pemrograman dan coding kepada anak-anak dengan pendekatan yang sangat menyenangkan.</p>
+                    <div class="order-3 lg:order-none w-full text-center lg:text-left animate-fade-in-up delay-200">
+                        <h1 id="hero-title" class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-extrabold text-gray-900 mb-4 md:mb-6 tracking-tight leading-tight transition-opacity duration-300">
+                            Judul Game <br><span class="text-brand-500 relative inline-block mt-1">Di Sini.
+                                <svg class="absolute w-full h-2 md:h-3 -bottom-1 left-0 text-brand-200 -z-10" viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M0 5 Q 50 10 100 5" stroke="currentColor" stroke-width="8" fill="none"/></svg>
+                            </span>
+                        </h1>
                         
-                        <div class="event-gallery drag-scroll">
-                            <img src="asset/jurnal pertualangan/Expo Prodi TRPL Polinela/dekomentasi_1.jpeg" alt="Suasana Expo TRPL">
-                            <img src="asset/jurnal pertualangan/Expo Prodi TRPL Polinela/dekomentasi_2.jpeg" alt="Suasana Expo TRPL">
-                            <img src="asset/jurnal pertualangan/Expo Prodi TRPL Polinela/dekomentasi_3.jpeg" alt="Suasana Expo TRPL">
-                            <img src="asset/game/think and code/ss1.png" alt="Gameplay Think and Code">
-                            <img src="asset/game/think and code/ss5.png" alt="Gameplay Think and Code">
-                            
+                        <p id="hero-desc" class="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed mb-8 md:mb-10 max-w-2xl mx-auto lg:mx-0 transition-opacity duration-300 px-2 lg:px-0">
+                            Deskripsi game akan otomatis ditarik dari daftar game Hita Studio.
+                        </p>
+                        
+                        <div class="flex flex-row justify-center lg:justify-start gap-3 md:gap-4 w-full px-4 sm:px-0">
+                            <a href="#karya" onclick="setPublicTab('vlogs')" class="flex-1 sm:flex-none px-2 sm:px-6 md:px-8 py-3 md:py-4 rounded-xl text-white bg-brand-500 hover:bg-brand-600 font-bold shadow-lg shadow-brand-500/30 transition transform hover:-translate-y-1 text-center text-sm md:text-base whitespace-nowrap">Lihat Devlog</a>
+                            <a id="hero-btn-play" href="#" target="_blank" class="flex-1 sm:flex-none px-2 sm:px-6 md:px-8 py-3 md:py-4 rounded-xl text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 font-bold shadow-sm transition transform hover:-translate-y-1 flex items-center justify-center gap-2 text-sm md:text-base whitespace-nowrap">
+                                <svg class="w-4 h-4 md:w-5 md:h-5 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M4 4l12 6-12 6z"></path></svg> Play
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-2 lg:order-none w-full lg:w-1/2 relative animate-fade-in-up delay-400 px-4 sm:px-8 lg:px-0">
+                    <div class="absolute -inset-2 md:-inset-4 bg-gradient-to-tr from-brand-100 to-orange-50 rounded-2xl md:rounded-[3rem] transform rotate-3 -z-10"></div>
+                    <div class="absolute -inset-2 md:-inset-4 bg-white border border-gray-100 rounded-2xl md:rounded-[3rem] transform -rotate-2 -z-10 shadow-sm"></div>
+                    
+                    <div id="hero-slider-container" class="relative w-full aspect-video md:aspect-[4/3] lg:aspect-[4/3]"></div>
+
+                    <div class="absolute -bottom-4 md:-bottom-6 -left-2 md:-left-6 lg:left-4 bg-white p-3 md:p-5 rounded-xl md:rounded-2xl shadow-xl border border-gray-100 flex items-center gap-3 md:gap-4 animate-float scale-90 md:scale-100 origin-bottom-left float-delay-0">
+                        <div class="w-10 h-10 md:w-14 md:h-14 rounded-full bg-brand-50 flex items-center justify-center text-brand-500 font-bold text-lg md:text-2xl shrink-0">3+</div>
+                        <div class="text-left">
+                            <p class="text-xs md:text-sm font-bold text-gray-900 leading-none mb-1">Tahun</p>
+                            <p class="text-[10px] md:text-xs text-gray-500 uppercase tracking-wider font-semibold leading-none">Pengalaman</p>
                         </div>
                     </div>
 
-                    <div style="text-align: center; margin-top: 30px;">
-                        <a href="arsip-acara.html" class="pixel-btn-small transition-link">
-                            LIHAT ACARA LAINNYA ►
-                        </a>
+                    <div class="absolute -top-4 md:-top-6 -right-2 md:-right-6 lg:right-4 bg-white p-3 md:p-5 rounded-xl md:rounded-2xl shadow-xl border border-gray-100 flex items-center gap-3 md:gap-4 animate-float scale-90 md:scale-100 origin-top-right float-delay-2000">
+                        <div class="w-10 h-10 md:w-14 md:h-14 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 font-bold text-lg md:text-2xl shrink-0" id="gameCountStat">0</div>
+                        <div class="text-left">
+                            <p class="text-xs md:text-sm font-bold text-gray-900 leading-none mb-1">Game</p>
+                            <p class="text-[10px] md:text-xs text-gray-500 uppercase tracking-wider font-semibold leading-none">Telah Dirilis</p>
+                        </div>
                     </div>
-                </section>
+                </div>
 
-                <section class="pixel-box-water" style="text-align: center; padding: 40px 20px;">
-                    <h2 class="section-title-water" style=" color: #003300; border-color: #003300;">Hubungi Kami</h2>
-                    
-                    <p style="font-size: 20px; line-height: 1.5; color: #E0FFFF; margin-bottom: 25px;">
-                        Punya pertanyaan, ide kolaborasi, tawaran kerja sama, atau sekadar ingin menyapa? Jangan ragu untuk mengirim pesan kepada kami!
-                    </p>
-                    
-                    <a href="mailto:Hita.Studio.Game@gmail.com" class="arcade-button" style="background: #1E90FF; box-shadow: 6px 6px 0px #000080; font-size: 22px; padding: 12px 30px;">
-                        <span class="blink">✉</span> Hita.Studio.Game@gmail.com
-                    </a>
-                </section>
-            </main>
+            </div>
+        </div>
+    </section>
+
+    <section id="karya" class="py-16 md:py-24 bg-gray-100 relative z-10 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-8 md:mb-12">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-3 md:mb-4">Portfolio & Update</h2>
+                <p class="text-sm md:text-base text-gray-600 max-w-2xl mx-auto px-2">Jelajahi game yang kami kembangkan dan ikuti terus perkembangan di balik layarnya.</p>
+            </div>
             
+            <div class="flex justify-center mb-8 md:mb-12">
+                <div class="bg-white p-1 md:p-1.5 rounded-lg md:rounded-xl border border-gray-200 inline-flex shadow-sm w-full sm:w-auto mx-4 sm:mx-0">
+                    <button id="btnTabGames" onclick="setPublicTab('games')" class="flex-1 sm:flex-none px-4 sm:px-8 py-2 md:py-2.5 rounded-md md:rounded-lg font-medium text-xs md:text-sm transition-all bg-brand-500 text-white shadow-md shadow-brand-500/20">Games</button>
+                    <button id="btnTabVlog" onclick="setPublicTab('vlogs')" class="flex-1 sm:flex-none px-4 sm:px-8 py-2 md:py-2.5 rounded-md md:rounded-lg font-medium text-xs md:text-sm transition-all text-gray-500 hover:text-gray-900 hover:bg-gray-50">Devlogs</button>
+                </div>
+            </div>
 
+
+            <div id="view-games" class="block">
+                <div id="public-games-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 md:gap-8"></div>
+                <div id="games-pagination" class="flex justify-center mt-8 w-full"></div>
+            </div>
+
+            <div id="view-vlogs" class="hidden max-w-4xl mx-auto w-full">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0 mb-6 md:mb-8 bg-white p-3 md:p-4 rounded-xl border border-gray-200 shadow-sm mx-4 sm:mx-0">
+                    <span class="text-gray-600 text-xs md:text-sm font-medium w-full sm:w-auto">Filter Devlog:</span>
+                    <select id="vlogFilterPublic" onchange="renderVlogFiltered(true)" class="w-full sm:w-auto bg-gray-50 border border-gray-300 rounded-lg px-3 md:px-4 py-1.5 md:py-2 text-gray-900 text-xs md:text-sm focus:ring-2 focus:ring-brand-500 outline-none">
+                        <option value="All">Semua Game / Umum</option>
+                    </select>
+                </div>
+                <div id="public-vlog-container" class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8"></div>
+                <div id="vlogs-pagination" class="flex justify-center mt-8 w-full"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pencapaian" class="py-16 md:py-24 bg-white relative z-10 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-3 md:mb-4">Pengalaman & Expo</h2>
+                <p class="text-sm md:text-base text-gray-600 max-w-2xl mx-auto px-2">Jejak langkah Hita Studio di berbagai pameran, kompetisi, dan acara industri game.</p>
+            </div>
+
+            <div id="public-pencapaian-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 md:gap-8"></div>
+            <div id="pencapaian-pagination" class="flex justify-center mt-8 w-full"></div>        
+        </div>
+    </section>
+
+    <section id="dukung" class="py-16 md:py-24 bg-gray-50 relative z-10 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-3 md:mb-4">Membantu Projek Kami</h2>
+                <p class="text-sm md:text-base text-gray-600 max-w-2xl mx-auto px-2">Setiap donasi sangat berarti untuk membantu kami bernapas lega dalam melanjutkan proses pengembangan game dari studio kecil ini.</p>
+            </div>
+            <div id="crowdfunding-container"></div>
+        </div>
+    </section>
+
+
+    <footer class="bg-gray-50 pt-12 pb-10 md:pt-16 md:pb-12 border-t border-gray-200 mt-auto relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-xl md:text-2xl font-heading font-bold text-gray-900 mb-6">Ikuti Perjalanan & Hubungi Kami</h2>
+            <div class="flex justify-center space-x-4 md:space-x-6">
+                <a href="https://www.instagram.com/hita_dev/" class="w-10 h-10 md:w-12 md:h-12 bg-white border border-gray-200 rounded-full flex items-center justify-center text-gray-500 hover:text-brand-500 hover:border-brand-500 hover:shadow-lg transition shadow-sm" title="Instagram">
+                    <svg class="w-5 h-5 md:w-6 md:h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                </a>
+                <a href="https://www.youtube.com/@hita_developer/videos" class="w-10 h-10 md:w-12 md:h-12 bg-white border border-gray-200 rounded-full flex items-center justify-center text-gray-500 hover:text-brand-500 hover:border-brand-500 hover:shadow-lg transition shadow-sm" title="YouTube">
+                    <svg class="w-5 h-5 md:w-6 md:h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 01-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 01-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 011.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418zM10 15l5-3-5-3v6z" clip-rule="evenodd" /></svg>
+                </a>
+                <a href="https://www.tiktok.com/@hita_dev" class="w-10 h-10 md:w-12 md:h-12 bg-white border border-gray-200 rounded-full flex items-center justify-center text-gray-500 hover:text-brand-500 hover:border-brand-500 hover:shadow-lg transition shadow-sm" title="TikTok">
+                    <svg class="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 448 512"><path d="M448 209.91a210.06 210.06 0 01-122.77-39.25v178.72A162.55 162.55 0 11150.2 135.53v74.52a88 88 0 1088.16 88.16v-315.6h75.52a149.25 149.25 0 00134.12 134.13z"/></svg>
+                </a>
+                <a href="mailto:hita8711si@gmail.com" class="w-10 h-10 md:w-12 md:h-12 bg-white border border-gray-200 rounded-full flex items-center justify-center text-gray-500 hover:text-brand-500 hover:border-brand-500 hover:shadow-lg transition shadow-sm" title="Hubungi Lewat Email">
+                    <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="pencapaianModal" class="fixed inset-0 z-[110] bg-gray-900/60 backdrop-blur-sm hidden flex items-center justify-center p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-white border border-gray-200 rounded-2xl max-w-3xl w-full max-h-[90vh] flex flex-col relative shadow-2xl transform scale-95 transition-transform duration-300 mx-2" id="pencapaianBox">
+            <button onclick="closePencapaianModal()" class="absolute top-2 md:top-4 right-2 md:right-4 bg-white hover:bg-red-50 text-gray-500 hover:text-red-500 rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center transition z-50 border border-gray-200 shadow-sm">
+                <svg class="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <div id="pencapaianModalContent" class="overflow-y-auto p-4 md:p-6 scroll-smooth rounded-2xl"></div>
         </div>
     </div>
 
+    <div id="vlogModal" class="fixed inset-0 z-[110] bg-gray-900/60 backdrop-blur-sm hidden flex items-center justify-center p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-white border border-gray-200 rounded-2xl max-w-3xl w-full max-h-[90vh] flex flex-col relative shadow-2xl transform scale-95 transition-transform duration-300 mx-2" id="vlogBox">
+            <button onclick="closeVlogModal()" class="absolute top-2 md:top-4 right-2 md:right-4 bg-white hover:bg-red-50 text-gray-500 hover:text-red-500 rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center transition z-50 border border-gray-200 shadow-sm">
+                <svg class="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <div id="vlogModalContent" class="overflow-y-auto p-5 md:p-8 scroll-smooth rounded-2xl"></div>
+        </div>
+    </div>
+
+    <div id="donaturModal" class="fixed inset-0 z-[110] bg-gray-900/60 backdrop-blur-sm hidden flex items-center justify-center p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-white border border-gray-200 rounded-2xl max-w-2xl w-full max-h-[90vh] flex flex-col relative shadow-2xl transform scale-95 transition-transform duration-300 mx-2" id="donaturBox">
+            <button onclick="closeDonaturModal()" class="absolute top-2 md:top-4 right-2 md:right-4 bg-white hover:bg-red-50 text-gray-500 hover:text-red-500 rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center transition z-50 border border-gray-200 shadow-sm">
+                <svg class="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <div id="donaturModalContent" class="overflow-y-auto p-5 md:p-8 scroll-smooth rounded-2xl"></div>
+        </div>
+    </div>
+
+    <div id="benefitModal" class="fixed inset-0 z-[120] bg-gray-900/60 backdrop-blur-sm hidden flex items-center justify-center p-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-white border border-gray-200 rounded-3xl max-w-md w-full flex flex-col relative shadow-2xl transform scale-95 transition-transform duration-300 mx-2" id="benefitBox">
+            <button onclick="closeBenefitModal()" class="absolute top-4 right-4 bg-white hover:bg-red-50 text-gray-500 hover:text-red-500 rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center transition z-50 border border-gray-200 shadow-sm">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <div id="benefitModalContent" class="p-6 md:p-8">
+            </div>
+        </div>
+    </div>
+
+    <div id="mobile-menu-backdrop" class="fixed inset-0 bg-gray-900/50 z-[55] hidden opacity-0 transition-opacity duration-300"></div>
+
+    <div id="mobile-menu-drawer" class="fixed top-0 right-0 h-full w-4/5 max-w-sm bg-white z-[60] transform translate-x-full transition-transform duration-300 shadow-2xl flex flex-col">
+        <div class="flex justify-between items-center p-4 border-b border-gray-100 h-20">
+            <img src="image/Logo/Icon Hita.png" alt="Hita Studio Logo" class="h-10 w-auto object-contain" onerror="this.src='https://ui-avatars.com/api/?name=Hita+Studio&background=f97316&color=fff'">
+            <button id="close-menu-btn" class="text-gray-500 hover:text-red-500 focus:outline-none p-2 rounded-full hover:bg-red-50 transition">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+        </div>
+        <div class="p-4 flex flex-col space-y-2 overflow-y-auto">
+            <a href="#about" class="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-brand-600 hover:bg-gray-50 transition mobile-nav-link">Beranda</a>
+            <a href="#karya" class="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-brand-600 hover:bg-gray-50 transition mobile-nav-link">Games & Devlog</a>
+            <a href="#pencapaian" class="block px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-brand-600 hover:bg-gray-50 transition mobile-nav-link">Pengalaman</a>
+            <div class="mt-6 pt-6 border-t border-gray-100">
+                <a href="#dukung" class="block w-full text-center px-4 py-3 rounded-xl text-base font-bold bg-white text-brand-600 border-2 border-brand-100 hover:bg-brand-50 transition mobile-nav-link">Dukung Kami</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="tailwind.config.js"></script>
+    <script src="data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
