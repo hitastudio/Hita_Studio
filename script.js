@@ -70,6 +70,7 @@ function renderHeroSlider() {
     const titleEl = document.getElementById('hero-title');
     const descEl = document.getElementById('hero-desc');
     const btnPlay = document.getElementById('hero-btn-play');
+    const btnDevlog = document.getElementById('hero-btn-devlog');
     const platformsEl = document.getElementById('hero-platforms');
 
     if (!container || !siteData.games || siteData.games.length === 0) return;
@@ -111,6 +112,17 @@ function renderHeroSlider() {
                 btnPlay.style.display = "none"; 
             }
 
+            if (btnDevlog) {
+                const hasDevlog = siteData.vlogs.some(v => v.terkait_game === data.judul);
+                
+                if (hasDevlog) {
+                    btnDevlog.style.display = "flex"; 
+                    btnDevlog.onclick = () => goToDevlogFilter(data.judul); 
+                } else {
+                    btnDevlog.style.display = "none"; 
+                }
+            }
+
             if(platformsEl) {
                 let iconsHTML = getPlatformIcons(data.platform);
                 iconsHTML = iconsHTML.replace(/text-gray-500/g, 'text-gray-900').replace(/w-4 h-4/g, 'w-5 h-5');
@@ -121,6 +133,18 @@ function renderHeroSlider() {
             titleEl.style.opacity = 1;
             descEl.style.opacity = 1;
         }, 300); 
+    }
+
+    function goToDevlogFilter(judulGame) {
+        setPublicTab('vlogs');
+        
+        const selectPublic = document.getElementById('vlogFilterPublic');
+        
+        if (selectPublic) {
+            selectPublic.value = judulGame;
+            
+            renderVlogFiltered(true);   
+        }
     }
 
     function updateCards() {
@@ -263,35 +287,44 @@ function updateGameDropdowns() {
 
 
 function parseMedia(urls) {
-    if(!urls) return '';
-    
-    if (urls.includes('youtube.com') || urls.includes('youtu.be')) {
-        let videoId = '';
-        if (urls.includes('v=')) videoId = urls.split('v=')[1].split('&')[0];
-        else if (urls.includes('youtu.be/')) videoId = urls.split('youtu.be/')[1].split('?')[0];
-        
-        if(videoId) {
-            return `<div class="mt-6 aspect-video rounded-xl overflow-hidden shadow-sm border border-gray-200"><iframe class="w-full h-full" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe></div>`;
-        }
-    }
+    if (!urls) return '';
 
-    const imgArray = urls.split(',').map(s => s.trim()).filter(s => s);
-    
-    if (imgArray.length === 1) {
-        return `<div class="mt-6 rounded-xl overflow-hidden shadow-sm border border-gray-200"><img src="${imgArray[0]}" class="w-full h-auto max-h-[500px] object-cover" alt="Media Devlog" onerror="this.style.display='none'"></div>`;
-    } else if (imgArray.length > 1) {
-        let gridHtml = `<div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">`;
-        imgArray.forEach(img => {
-            gridHtml += `
-            <div class="rounded-xl overflow-hidden shadow-sm border border-gray-200 group">
-                <img src="${img}" class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-500" alt="Galeri Devlog" onerror="this.style.display='none'">
+    const mediaArray = urls.split(',').map(s => s.trim()).filter(s => s);
+    let htmlOutput = '';
+
+    const videos = mediaArray.filter(url => url.includes('youtube.com') || url.includes('youtu.be'));
+    const images = mediaArray.filter(url => !url.includes('youtube.com') && !url.includes('youtu.be'));
+
+    videos.forEach(url => {
+        let videoId = '';
+        if (url.includes('v=')) videoId = url.split('v=')[1].split('&')[0];
+        else if (url.includes('youtu.be/')) videoId = url.split('youtu.be/')[1].split('?')[0];
+        
+        if (videoId) {
+            htmlOutput += `
+            <div class="mt-6 aspect-video rounded-xl overflow-hidden shadow-md border border-gray-800 mb-4 bg-gray-900 transition duration-300 hover:border-brand-500">
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+            </div>`;
+        }
+    });
+
+    if (images.length === 1) {
+        htmlOutput += `
+        <div class="mt-6 rounded-xl overflow-hidden shadow-md border border-gray-800 bg-gray-900 flex items-center justify-center transition-colors duration-300 hover:border-brand-500">
+            <img src="${images[0]}" class="w-full h-auto max-h-[500px] object-contain" alt="Media Devlog" onerror="this.style.display='none'">
+        </div>`;
+    } else if (images.length > 1) {
+        htmlOutput += `<div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">`;
+        images.forEach(img => {
+            htmlOutput += `
+            <div class="rounded-xl overflow-hidden shadow-md border border-gray-800 group bg-gray-900 aspect-video flex items-center justify-center transition-colors duration-300 hover:border-brand-500">
+                <img src="${img}" class="w-full h-full object-contain group-hover:scale-105 transition duration-500" alt="Galeri Devlog" onerror="this.style.display='none'">
             </div>`;
         });
-        gridHtml += `</div>`;
-        return gridHtml;
+        htmlOutput += `</div>`;
     }
-    
-    return '';
+
+    return htmlOutput;
 }
 
 function renderVlogFiltered(resetPage = false) {
@@ -691,18 +724,16 @@ function renderPaginationControls(containerId, totalPages, currentPage, type) {
     container.innerHTML = html;
 }
 
+
 function changePage(type, page) {
     if (type === 'games') {
         currentPageGames = page;
         renderGames();
-        document.getElementById('karya').scrollIntoView({ behavior: 'smooth' }); 
     } else if (type === 'vlogs') {
         currentPageVlogs = page;
         renderVlogFiltered();
-        document.getElementById('karya').scrollIntoView({ behavior: 'smooth' });
     } else if (type === 'pencapaian') {
         currentPagePencapaian = page;
         renderPencapaian();
-        document.getElementById('pencapaian').scrollIntoView({ behavior: 'smooth' });
     }
 }

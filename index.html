@@ -84,7 +84,7 @@
                         </p>
                         
                         <div class="flex flex-row justify-center lg:justify-start gap-3 md:gap-4 w-full px-4 sm:px-0">
-                            <a href="#karya" onclick="setPublicTab('vlogs')" class="flex-1 sm:flex-none px-2 sm:px-6 md:px-8 py-3 md:py-4 rounded-xl text-white bg-brand-500 hover:bg-brand-600 font-bold shadow-lg shadow-brand-500/30 transition transform hover:-translate-y-1 text-center text-sm md:text-base whitespace-nowrap">Lihat Devlog</a>
+                            <a id="hero-btn-devlog" href="#karya" class="flex-1 sm:flex-none px-2 sm:px-6 md:px-8 py-3 md:py-4 rounded-xl text-white bg-brand-500 hover:bg-brand-600 font-bold shadow-lg shadow-brand-500/30 transition transform hover:-translate-y-1 text-center text-sm md:text-base whitespace-nowrap flex items-center justify-center">Lihat Devlog</a>
                             <a id="hero-btn-play" href="#" target="_blank" class="flex-1 sm:flex-none px-2 sm:px-6 md:px-8 py-3 md:py-4 rounded-xl text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 font-bold shadow-sm transition transform hover:-translate-y-1 flex items-center justify-center gap-2 text-sm md:text-base whitespace-nowrap">
                                 <svg class="w-4 h-4 md:w-5 md:h-5 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M4 4l12 6-12 6z"></path></svg> Play
                             </a>
@@ -139,14 +139,18 @@
                 <div id="games-pagination" class="flex justify-center mt-8 w-full"></div>
             </div>
 
-            <div id="view-vlogs" class="hidden max-w-4xl mx-auto w-full">
-                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0 mb-6 md:mb-8 bg-white p-3 md:p-4 rounded-xl border border-gray-200 shadow-sm mx-4 sm:mx-0">
-                    <span class="text-gray-600 text-xs md:text-sm font-medium w-full sm:w-auto">Filter Devlog:</span>
-                    <select id="vlogFilterPublic" onchange="renderVlogFiltered(true)" class="w-full sm:w-auto bg-gray-50 border border-gray-300 rounded-lg px-3 md:px-4 py-1.5 md:py-2 text-gray-900 text-xs md:text-sm focus:ring-2 focus:ring-brand-500 outline-none">
+            <div id="view-vlogs" class="hidden mx-auto w-full">
+                <div class="flex items-center justify-between mb-8 mx-4 sm:mx-0 bg-white p-4 rounded-2xl border border-gray-200 shadow-sm">
+                    <div class="flex items-center gap-2 text-gray-700">
+                        <svg class="w-5 h-5 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path></svg>
+                        <span class="font-semibold text-sm">Filter Devlog</span>
+                    </div>
+                    
+                    <select id="vlogFilterPublic" onchange="renderVlogFiltered(true)" class="bg-gray-50 border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-brand-500 focus:border-brand-500 block p-2.5 w-64 cursor-pointer outline-none transition-all hover:bg-gray-100">
                         <option value="All">Semua Game / Umum</option>
                     </select>
                 </div>
-                <div id="public-vlog-container" class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8"></div>
+                <div id="public-vlog-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8"></div>
                 <div id="vlogs-pagination" class="flex justify-center mt-8 w-full"></div>
             </div>
         </div>
