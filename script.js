@@ -627,30 +627,10 @@ function openBenefitModal(id) {
 
     content.innerHTML = `
         <div class="mb-5 text-center mt-2">
-            <h2 class="text-2xl font-heading font-extrabold text-gray-900 mb-2">Benefit Dukungan</h2>
+            <h2 class="text-2xl font-heading font-extrabold text-gray-900 mb-2">Dukungan</h2>
             <p class="text-gray-500 text-sm">Terima kasih atas niat baik Anda mendukung <b>${project.namaProyek}</b>!</p>
         </div>
         
-        <div class="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-5 space-y-4">
-            <div class="flex items-start gap-3">
-                <div class="text-brand-500 mt-0.5">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                </div>
-                <div>
-                    <h4 class="font-bold text-gray-900 text-sm">Masuk Credit Game</h4>
-                    <p class="text-xs text-gray-600 mt-1">Nama Anda akan diabadikan di dalam menu <i>Credit</i> pada game yang rilis nanti.</p>
-                </div>
-            </div>
-            <div class="flex items-start gap-3">
-                <div class="text-brand-500 mt-0.5">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                </div>
-                <div>
-                    <h4 class="font-bold text-gray-900 text-sm">Tampil di Website</h4>
-                    <p class="text-xs text-gray-600 mt-1">Nama dan pesan Anda dari Saweria akan kami pajang di halaman "Lihat Donatur" maksimal 1x24 jam kerja.</p>
-                </div>
-            </div>
-        </div>
 
         <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6 flex items-start gap-3">
             <div class="text-amber-500 mt-0.5 shrink-0">
