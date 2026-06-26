@@ -5,9 +5,9 @@ const siteData = {
             judul: "Think & Code 3D", 
             deskripsi: "Di game ini, pemain belajar memahami cara kerja pemrograman dasar seperti perintah gerak, pengulangan, dan logika, sambil memecahkan tantangan secara bertahap.", 
             status: "Dalam Pengembangan", 
-            platform: "Windows,Web,Android", 
+            platform: "Windows,Android", 
             gambar: "image/Game/Think and Code 3D/hita.png", 
-            link: "https://hitastudio.github.io/testing-think-and-code-3d/" 
+            link: "https://hita-studio.itch.io/think-and-code" 
         },
         { 
             id: "2", 
