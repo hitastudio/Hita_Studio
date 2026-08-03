@@ -170,11 +170,12 @@ const siteData = {
             namaProyek: "Think And Code",
             deskripsi: "Di game ini, pemain belajar memahami cara kerja pemrograman dasar seperti perintah gerak, pengulangan, dan logika, sambil memecahkan tantangan secara bertahap. Tujuannya bukan hanya menang, tapi melatih cara berpikir terstruktur, efisien, dan kreatif lewat kode.",
             targetDana: 1000000, 
-            terkumpul: 250000,  
+            terkumpul: 265000,  
             linkDonasi: "https://saweria.co/HitaDev", 
             donatur: [
                 { nama: "Egi", nominal: 200000, pesan: "Semangat Bang Hita!", tanggal: "20 Juni 2026" },
-                { nama: "Muhammad deni", nominal: 50000, pesan: "Gokil gamenya, bermanfaat banget. anak saya suka ama gamenya, ditunggu ya update game selanjutnya", tanggal: "22 Juni 2026" }
+                { nama: "Muhammad deni", nominal: 50000, pesan: "Gokil gamenya, bermanfaat banget. anak saya suka ama gamenya, ditunggu ya update game selanjutnya", tanggal: "22 Juni 2026" },
+                { nama: "Sevina Reina", nominal: 15000, pesan: "Aku suka banget sama gamenyaaaa, the right amount of challenge and education for those who want to learn programming!", tanggal: "07/20/2026" }
             ]
         }
     ]
