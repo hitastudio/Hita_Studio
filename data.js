@@ -1,6 +1,15 @@
 const siteData = {
     "games": [
         {
+            "platform": "Windows,Android",
+            "id": "1",
+            "status": "Rilis",
+            "judul": "Think & Code 3D",
+            "gambar": "image/Game/Think and Code 3D/hita.png",
+            "deskripsi": "Di game ini, pemain belajar memahami cara kerja pemrograman dasar seperti perintah gerak, pengulangan, dan logika, sambil memecahkan tantangan secara bertahap.",
+            "link": "https://hita-studio.itch.io/think-and-code"
+        },
+        {
             "deskripsi": "Idle game yang nyaman dan menenangkan, terinspirasi oleh kegiatan damai menghitung domba. Bersantailah, saksikan kawanan dombamu bertambah banyak, biarkan anjing penggembala memandu jalan, dan hanyutlah ke dalam dunia mimpi yang menenangkan.",
             "judul": "Sleepy Flock",
             "link": "https://pocogem.com/game/sleepy-flock/",
@@ -8,15 +17,6 @@ const siteData = {
             "id": "7",
             "platform": "Web",
             "gambar": "image/Uploads/1790361868547_Sleepy-Flock.png"
-        },
-        {
-            "id": "1",
-            "judul": "Think & Code 3D",
-            "deskripsi": "Di game ini, pemain belajar memahami cara kerja pemrograman dasar seperti perintah gerak, pengulangan, dan logika, sambil memecahkan tantangan secara bertahap.",
-            "status": "Rilis",
-            "platform": "Windows,Android",
-            "gambar": "image/Game/Think and Code 3D/hita.png",
-            "link": "https://hita-studio.itch.io/think-and-code"
         },
         {
             "id": "2",
