@@ -10,13 +10,13 @@ const siteData = {
             "link": "https://hita-studio.itch.io/think-and-code"
         },
         {
+            "gambar": "https://img.itch.zone/aW1nLzI4NjU3ODQ0LnBuZw==/original/06THRB.png",
+            "platform": "Web",
             "deskripsi": "Idle game yang nyaman dan menenangkan, terinspirasi oleh kegiatan damai menghitung domba. Bersantailah, saksikan kawanan dombamu bertambah banyak, biarkan anjing penggembala memandu jalan, dan hanyutlah ke dalam dunia mimpi yang menenangkan.",
             "judul": "Sleepy Flock",
-            "link": "https://pocogem.com/game/sleepy-flock/",
-            "status": "Rilis",
             "id": "7",
-            "platform": "Web",
-            "gambar": "image/Uploads/1790361868547_Sleepy-Flock.png"
+            "status": "Rilis",
+            "link": "https://pocogem.com/game/sleepy-flock/"
         },
         {
             "gambar": "https://img.itch.zone/aW1nLzI4NzIxNzU4LnBuZw==/original/CFuHzU.png",
