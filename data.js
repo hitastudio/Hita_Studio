@@ -140,12 +140,12 @@ const siteData = {
     ],
     "pencapaian": [
         {
-            "gambar": "image/Uploads/1790365032416_IMG_5670.JPG",
-            "galeri": "image/Uploads/1790365039961_IMG_5667.JPG,image/Uploads/1790365046740_IMG_5680.JPG,image/Uploads/1790365053801_IMG_5681.JPG",
+            "galeri": "image/Uploads/1790365039961_IMG_5667.JPG,image/Uploads/1790365046740_IMG_5680.JPG,image/Uploads/1790365053801_IMG_5681.JPG,image/Uploads/1790366029557_IMG_5673.jpg,image/Uploads/1790366032062_IMG_5675.jpg",
             "nama": "Acara Inaugural",
-            "tanggal": "27 Agustus 2026",
+            "id": "7",
             "deskripsi": "Hita Studio turut berpartisipasi memeriahkan Acara Inaugural Mahasiswa Baru Teknologi Rekayasa Perangkat Lunak (TRPL) Politeknik Negeri Lampung. Di sela-sela acara, kami mendapat kesempatan berharga untuk melakukan showcase karya unggulan kami, yaitu Think and Code 3D. Game edukasi coding ini telah mendapatkan apresiasi luas, dimainkan oleh banyak konten kreator (YouTuber), dan bahkan telah diimplementasikan sebagai media pembelajaran di beberapa sekolah. Sesi pameran ini bertujuan untuk memotivasi mahasiswa baru serta menunjukkan potensi nyata dari pengembangan perangkat lunak di dunia pendidikan dan hiburan.",
-            "id": "7"
+            "tanggal": "27 Agustus 2026",
+            "gambar": "image/Uploads/1790365032416_IMG_5670.JPG"
         },
         {
             "id": "1",
