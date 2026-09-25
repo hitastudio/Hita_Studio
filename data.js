@@ -140,6 +140,14 @@ const siteData = {
     ],
     "pencapaian": [
         {
+            "gambar": "image/Uploads/1790365032416_IMG_5670.JPG",
+            "galeri": "image/Uploads/1790365039961_IMG_5667.JPG,image/Uploads/1790365046740_IMG_5680.JPG,image/Uploads/1790365053801_IMG_5681.JPG",
+            "nama": "Acara Inaugural",
+            "tanggal": "27 Agustus 2026",
+            "deskripsi": "Hita Studio turut berpartisipasi memeriahkan Acara Inaugural Mahasiswa Baru Teknologi Rekayasa Perangkat Lunak (TRPL) Politeknik Negeri Lampung. Di sela-sela acara, kami mendapat kesempatan berharga untuk melakukan showcase karya unggulan kami, yaitu Think and Code 3D. Game edukasi coding ini telah mendapatkan apresiasi luas, dimainkan oleh banyak konten kreator (YouTuber), dan bahkan telah diimplementasikan sebagai media pembelajaran di beberapa sekolah. Sesi pameran ini bertujuan untuk memotivasi mahasiswa baru serta menunjukkan potensi nyata dari pengembangan perangkat lunak di dunia pendidikan dan hiburan.",
+            "id": "7"
+        },
+        {
             "id": "1",
             "tanggal": "5 April 2026",
             "nama": "GDGoC UNSRI Game Jam 2026",
