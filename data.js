@@ -1,12 +1,12 @@
 const siteData = {
     "games": [
         {
-            "judul": "Sleepy Flock",
-            "status": "Rilis",
-            "platform": "Web",
-            "link": "https://pocogem.com/game/sleepy-flock/",
-            "id": "7",
             "deskripsi": "Idle game yang nyaman dan menenangkan, terinspirasi oleh kegiatan damai menghitung domba. Bersantailah, saksikan kawanan dombamu bertambah banyak, biarkan anjing penggembala memandu jalan, dan hanyutlah ke dalam dunia mimpi yang menenangkan.",
+            "judul": "Sleepy Flock",
+            "link": "https://pocogem.com/game/sleepy-flock/",
+            "status": "Rilis",
+            "id": "7",
+            "platform": "Web",
             "gambar": "image/Uploads/1790361868547_Sleepy-Flock.png"
         },
         {
