@@ -1,13 +1,13 @@
 const siteData = {
     "games": [
         {
-            "platform": "Web",
-            "deskripsi": "Di sini, kamu membangun, menggabungkan, dan meningkatkan pasukan kucing yang tangguh untuk menghentikan invasi tanpa henti dari para anjing Doge yang menyebalkan!",
-            "gambar": "https://img.itch.zone/aW1nLzI4NzIxNzU4LnBuZw==/original/CFuHzU.png",
-            "link": "https://pocogem.com/game/meow-vs-doge/",
             "status": "Rilis",
+            "gambar": "https://img.itch.zone/aW1nLzI4NzIxNzU4LnBuZw==/original/CFuHzU.png",
             "judul": "Meow VS Doge",
-            "id": "8"
+            "link": "https://pocogem.com/game/meow-vs-doge/",
+            "deskripsi": "Di sini, kamu membangun, menggabungkan, dan meningkatkan pasukan kucing yang tangguh untuk menghentikan invasi tanpa henti dari para anjing Doge yang menyebalkan!",
+            "id": "8",
+            "platform": "Web"
         },
         {
             "platform": "Windows,Android",
