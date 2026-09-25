@@ -1,6 +1,15 @@
 const siteData = {
     "games": [
         {
+            "judul": "Sleepy Flock",
+            "status": "Rilis",
+            "platform": "Web",
+            "link": "https://pocogem.com/game/sleepy-flock/",
+            "id": "7",
+            "deskripsi": "Idle game yang nyaman dan menenangkan, terinspirasi oleh kegiatan damai menghitung domba. Bersantailah, saksikan kawanan dombamu bertambah banyak, biarkan anjing penggembala memandu jalan, dan hanyutlah ke dalam dunia mimpi yang menenangkan.",
+            "gambar": "image/Uploads/1790361868547_Sleepy-Flock.png"
+        },
+        {
             "id": "1",
             "judul": "Think & Code 3D",
             "deskripsi": "Di game ini, pemain belajar memahami cara kerja pemrograman dasar seperti perintah gerak, pengulangan, dan logika, sambil memecahkan tantangan secara bertahap.",
@@ -53,15 +62,6 @@ const siteData = {
             "platform": "Windows",
             "gambar": "https://img.itch.zone/aW1hZ2UvMzkzNTg1Ny8yMzQ2NjIyNi5wbmc=/original/zyOBUj.png",
             "link": "https://hita-studio.itch.io/death-mechanism"
-        },
-        {
-            "id": "7",
-            "judul": "Sleepy Flock",
-            "platform": "Web",
-            "gambar": "image/Uploads/1790361868547_Sleepy-Flock.png",
-            "link": "https://pocogem.com/game/sleepy-flock/",
-            "status": "Rilis",
-            "deskripsi": "Idle game yang nyaman dan menenangkan, terinspirasi oleh kegiatan damai menghitung domba. Bersantailah, saksikan kawanan dombamu bertambah banyak, biarkan anjing penggembala memandu jalan, dan hanyutlah ke dalam dunia mimpi yang menenangkan."
         }
     ],
     "vlogs": [
