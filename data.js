@@ -1,15 +1,6 @@
 const siteData = {
     "games": [
         {
-            "status": "Rilis",
-            "gambar": "https://img.itch.zone/aW1nLzI4NzIxNzU4LnBuZw==/original/CFuHzU.png",
-            "judul": "Meow VS Doge",
-            "link": "https://pocogem.com/game/meow-vs-doge/",
-            "deskripsi": "Di sini, kamu membangun, menggabungkan, dan meningkatkan pasukan kucing yang tangguh untuk menghentikan invasi tanpa henti dari para anjing Doge yang menyebalkan!",
-            "id": "8",
-            "platform": "Web"
-        },
-        {
             "platform": "Windows,Android",
             "id": "1",
             "status": "Rilis",
@@ -26,6 +17,15 @@ const siteData = {
             "id": "7",
             "platform": "Web",
             "gambar": "image/Uploads/1790361868547_Sleepy-Flock.png"
+        },
+        {
+            "gambar": "https://img.itch.zone/aW1nLzI4NzIxNzU4LnBuZw==/original/CFuHzU.png",
+            "link": "https://pocogem.com/game/meow-vs-doge/",
+            "judul": "Meow VS Doge",
+            "deskripsi": "Di sini, kamu membangun, menggabungkan, dan meningkatkan pasukan kucing yang tangguh untuk menghentikan invasi tanpa henti dari para anjing Doge yang menyebalkan!",
+            "platform": "Web",
+            "id": "8",
+            "status": "Rilis"
         },
         {
             "id": "2",
