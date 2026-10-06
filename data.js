@@ -93,6 +93,15 @@ const siteData = {
     ],
     "vlogs": [
         {
+            "terkait_game": "Think & Code 3D",
+            "media_url": "https://youtu.be/hl_zB3hCMP0?si=pqD4XgafajkJb-r6,image/Devvlog/Think And Code 3D/Update 4/1.webp,image/Devvlog/Think And Code 3D/Update 4/2.webp,image/Devvlog/Think And Code 3D/Update 4/3.webp,image/Devvlog/Think And Code 3D/Update 4/4.webp",
+            "judul": "Update Sistem Penilaian & Kustomisasi",
+            "kategori": "Dev Update",
+            "konten": "In this update, we are focusing on rewarding those of you who craft code intelligently and efficiently.\n\nHere are two new systems we have just implemented:\n1. Scoring System: Write the Most Efficient Code.\nSimply completing a level is no longer enough. We have added a Scoring System at the end of each level. Your score or the number of stars you earn—is evaluated directly based on the efficiency of the code you write.\n- The More Concise, The Better: In the real world of programming, clean and effective code is key. Therefore, the more efficient the coding logic you use to complete a mission, the higher your score and star count will be.\n\n2. Character Customization & Star Shop Rewards.\nSo, what are those hard-earned stars for? Don't worry they now serve a vital purpose, as we have integrated them with the Character Customization feature.\n- Unlock Cool Attributes: You can now permanently unlock a variety of unique attributes, skins, or accessories for your character.\n- A Fair Reward System: It’s simple just exchange the stars you earned through your hard work in writing efficient code. The more you strive to craft optimal code, the faster you can deck out your favorite character in style.\n\nWith this update, we hope you won't just aim to scrape through levels, but will also feel challenged to think critically like a professional programmer in pursuit of perfect results.",
+            "id": "3",
+            "tanggal": "31/05/2026"
+        },
+        {
             "id": "2",
             "konten": "After undergoing various stages of development, refinement, and the addition of exciting features, we are thrilled to announce that the demo version of our game has officially launched and is ready to play.\n\nWhat Can You Enjoy in This Demo?\n1. Meet Hita and Bunga: Embark on your first coding adventure alongside Hita the bear and Bunga the adorable cat.\n2. A Seamless Mobile Experience: Try out our specially designed Custom In-Game Keyboard. Say goodbye to the frustration of your phone's keyboard obscuring the screen.\n3. Test the Scoring System: Prove your coding efficiency, collect the most stars by the end of a level, and check out the customization features to style your favorite characters.\n\nWe Need Your Feedback.\nAs this is a demo version, your feedback is crucial to us. We would love to hear about your gameplay experience. Did you encounter any annoying bugs? Were the levels too easy or too hard? Please don't hesitate to share your thoughts so we can perfect the game for its full release.",
             "tanggal": "26/06/2026",
@@ -109,15 +118,6 @@ const siteData = {
             "id": "1",
             "kategori": "Pengumuman",
             "konten": "After a long development process, we are finally releasing Think & Code Version 1.0.0. This full release brings major updates to ensure you have the best possible gaming experience.\n\nWhat’s new in Version 1.0.0?\n1. Massive Level Expansion: We’ve added numerous new levels specifically designed to test your limits and thinking skills.\n2. Accessory Collection: Collect and equip a wide variety of new accessories.\n3. 100% Free & Ad-Free: Enjoy all game content and features completely free of charge, with absolutely no intrusive ads. We want you to focus 100% on the fun of the gameplay.\n\nWe are incredibly grateful for all the support, feedback, and patience you have shown us. Please update or download the game now."
-        },
-        {
-            "id": "3",
-            "tanggal": "31/05/2026",
-            "judul": "Update Sistem Penilaian & Kustomisasi",
-            "kategori": "Dev Update",
-            "terkait_game": "Think & Code 3D",
-            "media_url": "https://youtu.be/hl_zB3hCMP0?si=pqD4XgafajkJb-r6,image/Devvlog/Think And Code 3D/Update 4/1.webp,image/Devvlog/Think And Code 3D/Update 4/2.webp,image/Devvlog/Think And Code 3D/Update 4/3.webp,image/Devvlog/Think And Code 3D/Update 4/4.webp",
-            "konten": "Pada update kali ini, kami fokus memberikan penghargaan lebih bagi kalian yang berhasil menyusun kode dengan cerdas dan efisien.\n\nBerikut adalah dua sistem baru yang baru saja selesai kami implementasikan:\n1. Sistem Penilaian: Tulis Kode Paling Efisien.\nSekarang, menyelesaikan sebuah level saja tidak cukup. Kami telah menambahkan Sistem Penilaian (Scoring System) di setiap akhir level. Nilai atau jumlah bintang yang kalian dapatkan akan dievaluasi langsung berdasarkan tingkat efisiensi kode yang ditulis.\n- Semakin Ringkas, Semakin Bagus: Di dunia pemrograman nyata, kode yang bersih dan efektif adalah kuncinya. Jadi, semakin efisien logika koding yang kalian gunakan untuk menyelesaikan misi, semakin tinggi pula skor dan jumlah bintang yang akan kalian dapatkan.\n\n2. Kustomisasi Karakter & Reward Toko Bintang\nLalu, untuk apa bintang-bintang yang sudah susah payah kalian kumpulkan? Tenang, bintang tersebut punya fungsi yang sangat penting sekarang, Kami telah mengintegrasikannya dengan Fitur Kustomisasi Karakter.\n- Buka Berbagai Atribut Keren: Berbagai macam atribut, skin, atau aksesori unik untuk karakter kini bisa kalian buka secara permanen.\n- Sistem Reward yang Adil: Caranya sangat mudah, cukup tukarkan bintang yang kalian peroleh dari hasil kerja keras menyusun kode yang efisien. Semakin rajin kalian mengulik kode yang paling optimal, semakin cepat pula kalian bisa mendandani karakter favorit kalian menjadi lebih keren.\n\nLewat pembaruan ini, kami berharap kalian tidak hanya sekadar asal lolos dari level, tapi juga tertantang untuk berpikir kritis layaknya seorang programmer profesional demi mendapatkan hasil yang sempurna."
         },
         {
             "id": "4",
