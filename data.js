@@ -37,13 +37,13 @@ const siteData = {
             "judul": "Suck and Shoot"
         },
         {
+            "deskripsi": "A web-based educational game designed to help children learn the basics of programming logic in a fun way.",
+            "link": "https://hitastudio.github.io/Think-and-Code/",
             "id": "2",
-            "judul": "Think & Code 2D",
-            "deskripsi": "Game edukasi berbasis web yang dirancang untuk membantu anak mengenal dasar logika pemrograman dengan cara yang menyenangkan.",
-            "status": "Rilis",
             "platform": "Web",
+            "judul": "Think & Code 2D",
             "gambar": "https://raw.githubusercontent.com/hitastudio/Think-and-Code/refs/heads/main/index.icon.png",
-            "link": "https://hitastudio.github.io/Think-and-Code/"
+            "status": "Rilis"
         },
         {
             "id": "3",
