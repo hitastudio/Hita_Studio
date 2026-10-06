@@ -93,11 +93,11 @@ const siteData = {
     ],
     "vlogs": [
         {
+            "konten": "After a long development process, we are finally releasing Think & Code Version 1.0.0. This full release brings major updates to ensure you have the best possible gaming experience.\n\nWhat’s new in Version 1.0.0?\n1. Massive Level Expansion: We’ve added numerous new levels specifically designed to test your limits and thinking skills.\n2. Accessory Collection: Collect and equip a wide variety of new accessories.\n3. 100% Free & Ad-Free: Enjoy all game content and features completely free of charge, with absolutely no intrusive ads. We want you to focus 100% on the fun of the gameplay.\n\nWe are incredibly grateful for all the support, feedback, and patience you have shown us. Please update or download the game now.",
             "terkait_game": "Think & Code 3D",
             "id": "1",
-            "kategori": "Pengumuman",
             "media_url": "https://img.itch.zone/aW1nLzI4NTYyMTk1LnBuZw==/original/8s3FBa.png",
-            "konten": "After a long development process, we are finally releasing Think & Code Version 1.0.0. This full release brings major updates to ensure you have the best possible gaming experience.\n\nWhat’s new in Version 1.0.0?\n1. Massive Level Expansion: We’ve added numerous new levels specifically designed to test your limits and thinking skills.\n2. Accessory Collection: Collect and equip a wide variety of new accessories.\n3. 100% Free & Ad-Free: Enjoy all game content and features completely free of charge, with absolutely no intrusive ads. We want you to focus 100% on the fun of the gameplay.\n\nWe are incredibly grateful for all the support, feedback, and patience you have shown us. Please update or download the game now.",
+            "kategori": "announcement",
             "tanggal": "18/07/2026",
             "judul": "[Full Release] Think & Code 1.0.0"
         },
