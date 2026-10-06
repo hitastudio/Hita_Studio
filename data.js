@@ -28,13 +28,13 @@ const siteData = {
             "link": "https://pocogem.com/game/meow-vs-doge/"
         },
         {
-            "deskripsi": "Area tersebut dipenuhi sampah, dan tugasmu adalah membersihkannya sembari bertahan dari serangan monster yang tiada henti.",
             "link": "https://hita-studio.itch.io/suck-and-shoot",
-            "platform": "Web",
             "gambar": "https://img.itch.zone/aW1nLzMwNTczMDU4LnBuZw==/105x83%23/MT4qWx.png",
-            "judul": "Suck and Shoot",
-            "status": "Tahap Konsep",
-            "id": "9"
+            "status": "Early Access",
+            "deskripsi": "The area is littered with trash, and your task is to clean it up while fending off relentless monster attacks.",
+            "id": "9",
+            "platform": "Web",
+            "judul": "Suck and Shoot"
         },
         {
             "id": "2",
