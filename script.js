@@ -384,7 +384,7 @@ function renderVlogFiltered(resetPage = false) {
             <h3 class="text-xl font-heading font-bold text-gray-900 mb-2 group-hover:text-brand-500 transition line-clamp-2">${v.judul}</h3>
             <p class="text-gray-500 text-sm leading-relaxed line-clamp-3 mb-4 flex-grow">${snippet}</p>
             <div class="mt-auto text-brand-600 font-semibold text-sm flex items-center gap-1 group-hover:gap-2 transition-all">
-                Baca selengkapnya <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                Read more <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             </div>
         </div>`;
     });
@@ -462,7 +462,7 @@ function renderPencapaian() {
                 <span class="text-brand-500 text-[10px] sm:text-xs font-bold tracking-widest uppercase mb-1 sm:mb-2 block">${p.tanggal}</span>
                 <h3 class="font-heading font-bold text-lg sm:text-xl md:text-2xl text-white mb-2 sm:mb-3 leading-tight group-hover:text-brand-400 transition">${p.nama}</h3>
                 <div class="flex items-center text-gray-300 text-xs sm:text-sm font-medium group-hover:text-brand-500 transition-colors">
-                    Lihat detail 
+                    View details 
                     <svg class="w-3 h-3 sm:w-4 sm:h-4 ml-1.5 transform group-hover:translate-x-1.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                     </svg>
