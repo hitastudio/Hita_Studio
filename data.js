@@ -158,6 +158,14 @@ const siteData = {
     ],
     "pencapaian": [
         {
+            "nama": "Inaugural Event",
+            "gambar": "image/Uploads/1790366458679_IMG_5670.jpg",
+            "id": "7",
+            "galeri": "image/Uploads/1790366467120_IMG_5667.jpg,image/Uploads/1790366464926_IMG_5675.jpg,image/Uploads/1790366469196_IMG_5680.jpg,image/Uploads/1790366471247_IMG_5681.jpg",
+            "tanggal": "27 Agustus 2026",
+            "deskripsi": "Hita Studio participated in the inaugural event for new Software Engineering Technology (TRPL) students at the Lampung State Polytechnic. During the event, we had the valuable opportunity to showcase our flagship title, Think and Code 3D. This educational coding game has garnered widespread acclaim, been played by numerous content creators (YouTubers), and even implemented as a learning tool in several schools. The showcase aimed to inspire new students and demonstrate the tangible potential of software development within the realms of education and entertainment."
+        },
+        {
             "tanggal": "30 Januari 2026",
             "galeri": "image/Galeri/igg game jam 2026/sertifikat.jpeg,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMy5wbmc=/347x500/h0pGlt.png,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMC5wbmc=/347x500/jujzSP.png,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMS5wbmc=/347x500/14X8pd.png,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMi5wbmc=/347x500/IfwrUx.png",
             "deskripsi": "Hita Studio participated in the IGG Game Jam 2026. In this competition, we were challenged to create a game from scratch in just 48 hours. It was from this intense challenge that UNMASKED, a memory-based platformer was born, successfully capturing the attention of players.",
@@ -180,14 +188,6 @@ const siteData = {
             "tanggal": "23 September 2025",
             "galeri": "https://img.itch.zone/aW1nLzIzNDA3NDA4LnBuZw==/original/JEt3e0.png,https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzU5OC5wbmc=/347x500/qJN5di.png,https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzYwMS5wbmc=/347x500/FU1JeU.png,https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzkyMy5wbmc=/original/tf4xOf.png",
             "deskripsi": "Hita Studio participated in Alchemy Jam #6, organized by ecaroh.games. This game jam was unique in that it encouraged participants to repurpose assets from past projects and combine them with a mandatory pixel asset: the \"Golden Key.\" Inspired by this theme, we created *Key of Hell*. In the game, players must protect this dangerous key from a horde of monsters intent on using it to open the gates of hell. The game received positive feedback from the community and fellow participants, particularly for its unique concept of transforming the key into an upgrade currency, as well as for the quality of its visual and audio design."
-        },
-        {
-            "id": "7",
-            "nama": "Acara Inaugural",
-            "gambar": "image/Uploads/1790366458679_IMG_5670.jpg",
-            "deskripsi": "Hita Studio turut berpartisipasi memeriahkan Acara Inaugural Mahasiswa Baru Teknologi Rekayasa Perangkat Lunak (TRPL) Politeknik Negeri Lampung. Di sela-sela acara, kami mendapat kesempatan berharga untuk melakukan showcase karya unggulan kami, yaitu Think and Code 3D. Game edukasi coding ini telah mendapatkan apresiasi luas, dimainkan oleh banyak konten kreator (YouTuber), dan bahkan telah diimplementasikan sebagai media pembelajaran di beberapa sekolah. Sesi pameran ini bertujuan untuk memotivasi mahasiswa baru serta menunjukkan potensi nyata dari pengembangan perangkat lunak di dunia pendidikan dan hiburan.",
-            "galeri": "image/Uploads/1790366467120_IMG_5667.jpg,image/Uploads/1790366464926_IMG_5675.jpg,image/Uploads/1790366469196_IMG_5680.jpg,image/Uploads/1790366471247_IMG_5681.jpg",
-            "tanggal": "27 Agustus 2026"
         },
         {
             "id": "1",
