@@ -158,6 +158,14 @@ const siteData = {
     ],
     "pencapaian": [
         {
+            "id": "6",
+            "gambar": "image/Galeri/Alchemy Jam/Icon.png",
+            "nama": "Alchemy Jam #6",
+            "tanggal": "23 September 2025",
+            "galeri": "https://img.itch.zone/aW1nLzIzNDA3NDA4LnBuZw==/original/JEt3e0.png,https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzU5OC5wbmc=/347x500/qJN5di.png,https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzYwMS5wbmc=/347x500/FU1JeU.png,https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzkyMy5wbmc=/original/tf4xOf.png",
+            "deskripsi": "Hita Studio participated in Alchemy Jam #6, organized by ecaroh.games. This game jam was unique in that it encouraged participants to repurpose assets from past projects and combine them with a mandatory pixel asset: the \"Golden Key.\" Inspired by this theme, we created *Key of Hell*. In the game, players must protect this dangerous key from a horde of monsters intent on using it to open the gates of hell. The game received positive feedback from the community and fellow participants, particularly for its unique concept of transforming the key into an upgrade currency, as well as for the quality of its visual and audio design."
+        },
+        {
             "id": "7",
             "nama": "Acara Inaugural",
             "gambar": "image/Uploads/1790366458679_IMG_5670.jpg",
@@ -204,14 +212,6 @@ const siteData = {
             "deskripsi": "Hita Studio turut serta dalam kancah internasional melalui Jamsepticeye 2025, sebuah Game Jam berskala besar yang diselenggarakan oleh Jacksepticeye dan Ducky Dev. Merespons tema \"Death is an Opportunity!\", kami merancang game puzzle eksperimental berjudul Death Mechanism. Dalam game ini, kematian bukanlah layar 'Game Over', melainkan kunci utama permainan, pemain diharuskan untuk memanipulasi, memotong mayat karakter mereka sendiri untuk memecahkan berbagai rintangan dan menyelesaikan level.",
             "gambar": "image/Galeri/Jamsepticeye 2025/Icon.png",
             "galeri": "https://img.itch.zone/aW1hZ2UvMzkzNTg1Ny8yMzQ2NjIyNi5wbmc=/347x500/rKEJIa.png,https://img.itch.zone/aW1hZ2UvMzkzNTg1Ny8yMzQ2NjIyNS5wbmc=/347x500/hwjsSp.png,https://img.itch.zone/aW1hZ2UvMzkzNTg1Ny8yMzQ2NjIyNy5wbmc=/347x500/9d98KE.png"
-        },
-        {
-            "id": "6",
-            "tanggal": "23 September 2025",
-            "nama": "Alchemy Jam #6",
-            "deskripsi": "Hita Studio turut berpartisipasi dalam Alchemy Jam #6 yang diselenggarakan oleh ecaroh.games. Game jam ini memiliki keunikan karena mendorong pesertanya untuk mendaur ulang aset proyek lama dan memadukannya dengan aset piksel wajib berupa \"Kunci Emas\". Dari tema inilah kami merancang Key Of Hell. Dalam game ini, pemain bertugas melindungi kunci berbahaya tersebut dari serbuan monster yang ingin menggunakannya untuk membuka gerbang neraka. Game ini mendapat apresiasi positif dari komunitas dan sesama peserta, khususnya pada keunikan konsep yang mengubah kunci menjadi mata uang upgrade, serta kualitas desain visual dan audionya.",
-            "gambar": "image/Galeri/Alchemy Jam/Icon.png",
-            "galeri": "https://img.itch.zone/aW1nLzIzNDA3NDA4LnBuZw==/original/JEt3e0.png,https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzU5OC5wbmc=/347x500/qJN5di.png,https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzYwMS5wbmc=/347x500/FU1JeU.png,https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzkyMy5wbmc=/original/tf4xOf.png"
         }
     ],
     "crowdfunding": [
