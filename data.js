@@ -93,6 +93,15 @@ const siteData = {
     ],
     "vlogs": [
         {
+            "media_url": "image/Devvlog/Think And Code 3D/Update 2/1.webp, image/Devvlog/Think And Code 3D/Update 2/2.webp, image/Devvlog/Think And Code 3D/Update 2/3.webp",
+            "judul": "Think and Code 3D Update: Main Menu, Customization Features, and Now Playable.",
+            "konten": "Think and Code 3D is progressing rapidly, and we have some highly anticipated news: the game is now playable on mobile and Windows devices.\n\nHaving previously focused on coding logic mechanics and level design, our focus for this update was to add a personal touch and refine the overall gameplay experience. Here are the latest additions we’ve just completed:\n1. Main Menu: We’ve designed a Main Menu interface that serves as the starting point for players to begin their adventure. The navigation is child-friendly and intuitive.\n2. Player Character Customization: We want every player to feel a stronger connection to the game world, so we’ve added a character customization system! Players can now freely customize their main character's appearance, from adjusting skin tone to changing fur color.\n3. Enemy Skin Customization: It’s not just the main character that can be styled; we’ve also added a feature allowing players to change the skins or appearance of the enemies they encounter. This adds a personal, fun touch to the game—ensuring the experience remains friendly and non-scary for children.\n\nWith a polished menu system, comprehensive customization features, and smooth coding mechanics, Think and Code 3D is now ready for you to explore.\n\nWe can’t wait to see the unique character combinations you create and how you tackle the various logic challenges.",
+            "tanggal": "01/11/2026",
+            "id": "5",
+            "kategori": "Dev Update",
+            "terkait_game": "Think & Code 3D"
+        },
+        {
             "judul": "Think and Code 3D Dev Vlog: New Visuals, Code Marker Feature, and the Arrival of Enemies.",
             "id": "6",
             "tanggal": "01/04/2026",
@@ -109,15 +118,6 @@ const siteData = {
             "terkait_game": "Think & Code 2D",
             "id": "7",
             "kategori": "announcement"
-        },
-        {
-            "terkait_game": "Think & Code 3D",
-            "konten": "Think and Code 3D is progressing rapidly, and we have some highly anticipated news: the game is now playable on mobile and Windows devices.\n\nHaving previously focused on coding logic mechanics and level design, our focus for this update was to add a personal touch and refine the overall gameplay experience. Here are the latest additions we’ve just completed:\n1. Main Menu: We’ve designed a Main Menu interface that serves as the starting point for players to begin their adventure. The navigation is child-friendly and intuitive.\n2. Player Character Customization: We want every player to feel a stronger connection to the game world, so we’ve added a character customization system! Players can now freely customize their main character's appearance, from adjusting skin tone to changing fur color.\n3. Enemy Skin Customization: It’s not just the main character that can be styled; we’ve also added a feature allowing players to change the skins or appearance of the enemies they encounter. This adds a personal, fun touch to the game—ensuring the experience remains friendly and non-scary for children.\n\nWith a polished menu system, comprehensive customization features, and smooth coding mechanics, Think and Code 3D is now ready for you to explore.\n\nWe can’t wait to see the unique character combinations you create and how you tackle the various logic challenges.",
-            "id": "5",
-            "kategori": "Dev Update",
-            "tanggal": "01/11/2026",
-            "media_url": "image/Devvlog/Think And Code 3D/Update 2/1.webp, image/Devvlog/Think And Code 3D/Update 2/2.webp, image/Devvlog/Think And Code 3D/Update 2/3.webp",
-            "judul": "Think and Code 3D Update: Main Menu, Fitur Kustomisasi, dan Sudah Bisa Dimainkan."
         },
         {
             "tanggal": "30/05/2026",
