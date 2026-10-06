@@ -46,12 +46,12 @@ const siteData = {
             "status": "Rilis"
         },
         {
+            "gambar": "https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMC5wbmc=/original/%2BCwp07.png",
+            "deskripsi": "UNMASKED is a minimalist 3D platformer about perception and memory.",
             "id": "3",
             "judul": "UNMASKED",
-            "deskripsi": "UNMASKED adalah game platformer 3D minimalis tentang persepsi dan memori.",
-            "status": "Rilis",
             "platform": "Windows,Android",
-            "gambar": "https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMC5wbmc=/original/%2BCwp07.png",
+            "status": "Rilis",
             "link": "https://hita-studio.itch.io/unmasked"
         },
         {
