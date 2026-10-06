@@ -73,13 +73,13 @@ const siteData = {
             "status": "Rilis"
         },
         {
-            "id": "6",
+            "deskripsi": "Explore puzzles where death is just the beginning! Use your character's own corpse to solve puzzles and continue the journey.",
             "judul": "Death Mechanism",
-            "deskripsi": "Jelajahi teka-teki di mana kematian hanyalah permulaan! Gunakan mayat karaktermu sendiri untuk memecahkan teka-teki dan melanjutkan perjalanan.",
             "status": "Rilis",
-            "platform": "Windows",
             "gambar": "https://img.itch.zone/aW1hZ2UvMzkzNTg1Ny8yMzQ2NjIyNi5wbmc=/original/zyOBUj.png",
-            "link": "https://hita-studio.itch.io/death-mechanism"
+            "link": "https://hita-studio.itch.io/death-mechanism",
+            "id": "6",
+            "platform": "Windows"
         },
         {
             "judul": "Key Of Hell",
