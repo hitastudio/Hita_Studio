@@ -82,13 +82,13 @@ const siteData = {
             "platform": "Windows"
         },
         {
-            "judul": "Key Of Hell",
-            "deskripsi": "Tugasmu adalah melindungi kunci berharga ini dari cengkeraman mereka, menghadapi monster gelombang yang tak mengenal ampun, dan memastikan dunia tidak terjerumus ke dalam kekacauan yang mengerikan.",
-            "status": "Rilis",
-            "platform": "Windows",
-            "id": "10",
             "gambar": "https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzkyMy5wbmc=/347x500/CIymUt.png",
-            "link": "https://hita-studio.itch.io/key-of-hell"
+            "id": "10",
+            "status": "Rilis",
+            "link": "https://hita-studio.itch.io/key-of-hell",
+            "platform": "Windows",
+            "deskripsi": "Your task is to protect this precious key from their clutches, face relentless waves of monsters, and ensure the world does not plunge into horrific chaos.",
+            "judul": "Key Of Hell"
         }
     ],
     "vlogs": [
