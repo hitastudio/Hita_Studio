@@ -93,6 +93,15 @@ const siteData = {
     ],
     "vlogs": [
         {
+            "terkait_game": "Think & Code 3D",
+            "id": "1",
+            "kategori": "Pengumuman",
+            "media_url": "https://img.itch.zone/aW1nLzI4NTYyMTk1LnBuZw==/original/8s3FBa.png",
+            "konten": "After a long development process, we are finally releasing Think & Code Version 1.0.0. This full release brings major updates to ensure you have the best possible gaming experience.\n\nWhat’s new in Version 1.0.0?\n1. Massive Level Expansion: We’ve added numerous new levels specifically designed to test your limits and thinking skills.\n2. Accessory Collection: Collect and equip a wide variety of new accessories.\n3. 100% Free & Ad-Free: Enjoy all game content and features completely free of charge, with absolutely no intrusive ads. We want you to focus 100% on the fun of the gameplay.\n\nWe are incredibly grateful for all the support, feedback, and patience you have shown us. Please update or download the game now.",
+            "tanggal": "18/07/2026",
+            "judul": "[Full Release] Think & Code 1.0.0"
+        },
+        {
             "judul": "Think and Code Game Demo Version",
             "kategori": "Pengumuman",
             "konten": "After undergoing various stages of development, refinement, and the addition of exciting features, we are thrilled to announce that the demo version of our game has officially launched and is ready to play.\n\nWhat Can You Enjoy in This Demo?\n1. Meet Hita and Bunga: Embark on your first coding adventure alongside Hita the bear and Bunga the adorable cat.\n2. A Seamless Mobile Experience: Try out our specially designed Custom In-Game Keyboard. Say goodbye to the frustration of your phone's keyboard obscuring the screen.\n3. Test the Scoring System: Prove your coding efficiency, collect the most stars by the end of a level, and check out the customization features to style your favorite characters.\n\nWe Need Your Feedback.\nAs this is a demo version, your feedback is crucial to us. We would love to hear about your gameplay experience. Did you encounter any annoying bugs? Were the levels too easy or too hard? Please don't hesitate to share your thoughts so we can perfect the game for its full release.",
@@ -145,15 +154,6 @@ const siteData = {
             "terkait_game": "Think & Code 2D",
             "id": "7",
             "kategori": "announcement"
-        },
-        {
-            "terkait_game": "Think & Code 3D",
-            "judul": "[Rilis Penuh] Think & Code 1.0.0",
-            "media_url": "https://img.itch.zone/aW1nLzI4NTYyMTk1LnBuZw==/original/8s3FBa.png",
-            "tanggal": "18/07/2026",
-            "id": "1",
-            "kategori": "Pengumuman",
-            "konten": "After a long development process, we are finally releasing Think & Code Version 1.0.0. This full release brings major updates to ensure you have the best possible gaming experience.\n\nWhat’s new in Version 1.0.0?\n1. Massive Level Expansion: We’ve added numerous new levels specifically designed to test your limits and thinking skills.\n2. Accessory Collection: Collect and equip a wide variety of new accessories.\n3. 100% Free & Ad-Free: Enjoy all game content and features completely free of charge, with absolutely no intrusive ads. We want you to focus 100% on the fun of the gameplay.\n\nWe are incredibly grateful for all the support, feedback, and patience you have shown us. Please update or download the game now."
         }
     ],
     "pencapaian": [
