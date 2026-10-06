@@ -93,6 +93,15 @@ const siteData = {
     ],
     "vlogs": [
         {
+            "konten": "In this update, we are focusing on rewarding those of you who craft code intelligently and efficiently.\n\nHere are two new systems we have just implemented:\n1. Scoring System: Write the Most Efficient Code.\nSimply completing a level is no longer enough. We have added a Scoring System at the end of each level. Your score or the number of stars you earn—is evaluated directly based on the efficiency of the code you write.\n- The More Concise, The Better: In the real world of programming, clean and effective code is key. Therefore, the more efficient the coding logic you use to complete a mission, the higher your score and star count will be.\n\n2. Character Customization & Star Shop Rewards.\nSo, what are those hard-earned stars for? Don't worry they now serve a vital purpose, as we have integrated them with the Character Customization feature.\n- Unlock Cool Attributes: You can now permanently unlock a variety of unique attributes, skins, or accessories for your character.\n- A Fair Reward System: It’s simple just exchange the stars you earned through your hard work in writing efficient code. The more you strive to craft optimal code, the faster you can deck out your favorite character in style.\n\nWith this update, we hope you won't just aim to scrape through levels, but will also feel challenged to think critically like a professional programmer in pursuit of perfect results.",
+            "id": "3",
+            "tanggal": "31/05/2026",
+            "judul": "Scoring System & Customization Update",
+            "media_url": "https://youtu.be/hl_zB3hCMP0?si=pqD4XgafajkJb-r6,image/Devvlog/Think And Code 3D/Update 4/1.webp,image/Devvlog/Think And Code 3D/Update 4/2.webp,image/Devvlog/Think And Code 3D/Update 4/3.webp,image/Devvlog/Think And Code 3D/Update 4/4.webp",
+            "terkait_game": "Think & Code 3D",
+            "kategori": "Dev Update"
+        },
+        {
             "id": "4",
             "judul": "Meet the characters Hita and Bunga, enjoy brighter visuals, and discover mobile gaming solutions.",
             "kategori": "Dev Update",
@@ -127,15 +136,6 @@ const siteData = {
             "terkait_game": "Think & Code 2D",
             "id": "7",
             "kategori": "announcement"
-        },
-        {
-            "terkait_game": "Think & Code 3D",
-            "media_url": "https://youtu.be/hl_zB3hCMP0?si=pqD4XgafajkJb-r6,image/Devvlog/Think And Code 3D/Update 4/1.webp,image/Devvlog/Think And Code 3D/Update 4/2.webp,image/Devvlog/Think And Code 3D/Update 4/3.webp,image/Devvlog/Think And Code 3D/Update 4/4.webp",
-            "judul": "Update Sistem Penilaian & Kustomisasi",
-            "kategori": "Dev Update",
-            "konten": "In this update, we are focusing on rewarding those of you who craft code intelligently and efficiently.\n\nHere are two new systems we have just implemented:\n1. Scoring System: Write the Most Efficient Code.\nSimply completing a level is no longer enough. We have added a Scoring System at the end of each level. Your score or the number of stars you earn—is evaluated directly based on the efficiency of the code you write.\n- The More Concise, The Better: In the real world of programming, clean and effective code is key. Therefore, the more efficient the coding logic you use to complete a mission, the higher your score and star count will be.\n\n2. Character Customization & Star Shop Rewards.\nSo, what are those hard-earned stars for? Don't worry they now serve a vital purpose, as we have integrated them with the Character Customization feature.\n- Unlock Cool Attributes: You can now permanently unlock a variety of unique attributes, skins, or accessories for your character.\n- A Fair Reward System: It’s simple just exchange the stars you earned through your hard work in writing efficient code. The more you strive to craft optimal code, the faster you can deck out your favorite character in style.\n\nWith this update, we hope you won't just aim to scrape through levels, but will also feel challenged to think critically like a professional programmer in pursuit of perfect results.",
-            "id": "3",
-            "tanggal": "31/05/2026"
         },
         {
             "id": "2",
