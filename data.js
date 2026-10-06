@@ -158,6 +158,14 @@ const siteData = {
     ],
     "pencapaian": [
         {
+            "deskripsi": "Hita Studio officially participated in a technology exhibition organized by the Software Engineering Technology (TRPL) program at Polinela. This participation reflects our commitment to supporting the development of a technology-driven educational ecosystem within the academic community.\n\nAt the exhibition, Hita Studio showcased our flagship product, \"Think and Code.\" This interactive educational game was developed to serve as an effective self-learning solution for introducing children to basic programming logic concepts.\n\nThe strength of \"Think and Code\" lies in its \"joyful learning\" methodology. We integrate problem-solving challenges into intuitive game mechanics, allowing children to learn fundamental algorithms without feeling overwhelmed. We hope that our participation in this Polinela exhibition will inspire more educators and technology practitioners to continue creating inclusive and effective learning tools for future generations.",
+            "gambar": "image/Galeri/Expo Prodi TRPL Polinela/dekomentasi_1.jpeg",
+            "galeri": "image/Galeri/Expo Prodi TRPL Polinela/dekomentasi_3.jpeg,image/Galeri/Expo Prodi TRPL Polinela/dekomentasi_2.jpeg,image/Game/Think and Code 2D/ss1.png,image/Game/Think and Code 2D/ss2.png,image/Game/Think and Code 2D/ss3.png,image/Game/Think and Code 2D/ss4.png,image/Game/Think and Code 2D/ss5.png",
+            "tanggal": "18 Desember 2025",
+            "nama": "Expo Prodi TRPL Polinela",
+            "id": "3"
+        },
+        {
             "nama": "Inaugural Event",
             "gambar": "image/Uploads/1790366458679_IMG_5670.jpg",
             "id": "7",
@@ -196,14 +204,6 @@ const siteData = {
             "deskripsi": "Hita Studio berpartisipasi dalam ajang GDGoC UNSRI Game Jam 2026: Spawn Point. Dalam kompetisi ini, kami ditantang untuk merancang dan membangun game dari nol secara penuh dalam waktu 7 hari. Dari tantangan inilah lahir Lumina: Akar Terakhir, sebuah game di mana pemain harus meracik strategi, membangun senjata, dan mendirikan benteng untuk melindungi pohon kehidupan terakhir dari invasi alien.",
             "gambar": "image/Galeri/GDGoC UNSRI Game Jam 2026/Icon.png",
             "galeri": "image/Galeri/GDGoC UNSRI Game Jam 2026/dekomentasi1.jpeg,image/Galeri/GDGoC UNSRI Game Jam 2026/dekomentasi2.jpeg,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1NS5wbmc=/347x500/i4%2BDhK.png,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1Ni5wbmc=/347x500/xWCh9d.png,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1Ny5wbmc=/347x500/4iYLY8.png,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1OC5wbmc=/347x500/9xt0mA.png,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1OS5wbmc=/347x500/1yBiHE.png,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU2MC5wbmc=/347x500/LGPH%2FI.png"
-        },
-        {
-            "id": "3",
-            "tanggal": "18 Desember 2025",
-            "nama": "Expo Prodi TRPL Polinela",
-            "deskripsi": "Hita Studio secara resmi berpartisipasi dalam pameran teknologi yang diselenggarakan oleh program studi Teknologi Rekayasa Perangkat Lunak (TRPL) Polinela. Partisipasi ini merupakan wujud komitmen kami dalam mendukung pengembangan ekosistem pendidikan berbasis teknologi di lingkungan akademis.\n\nDalam ajang pameran ini, Hita Studio memamerkan produk unggulan kami, \"Think and Code\". Game edukasi interaktif ini dikembangkan untuk menjadi solusi pembelajaran mandiri yang efektif dalam memperkenalkan konsep logika dasar pemrograman kepada anak-anak.\n\nKeunggulan dari \"Think and Code\" terletak pada metodologi joyful learning yang diterapkan. Kami mengintegrasikan tantangan pemecahan masalah (problem-solving) ke dalam mekanisme permainan yang intuitif, sehingga anak-anak dapat mempelajari algoritma dasar tanpa merasa terbebani. Harapan kami, melalui keterlibatan dalam pameran di Polinela ini, semakin banyak pendidik dan praktisi teknologi yang terinspirasi untuk terus menciptakan media pembelajaran yang inklusif dan solutif bagi generasi mendatang.",
-            "gambar": "image/Galeri/Expo Prodi TRPL Polinela/dekomentasi_1.jpeg",
-            "galeri": "image/Galeri/Expo Prodi TRPL Polinela/dekomentasi_3.jpeg,image/Galeri/Expo Prodi TRPL Polinela/dekomentasi_2.jpeg,image/Game/Think and Code 2D/ss1.png,image/Game/Think and Code 2D/ss2.png,image/Game/Think and Code 2D/ss3.png,image/Game/Think and Code 2D/ss4.png,image/Game/Think and Code 2D/ss5.png"
         },
         {
             "id": "5",
