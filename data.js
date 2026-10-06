@@ -19,13 +19,13 @@ const siteData = {
             "platform": "Web"
         },
         {
-            "gambar": "https://img.itch.zone/aW1nLzI4NzIxNzU4LnBuZw==/original/CFuHzU.png",
-            "link": "https://pocogem.com/game/meow-vs-doge/",
-            "judul": "Meow VS Doge",
-            "deskripsi": "Di sini, kamu membangun, menggabungkan, dan meningkatkan pasukan kucing yang tangguh untuk menghentikan invasi tanpa henti dari para anjing Doge yang menyebalkan!",
+            "deskripsi": "Here, you build, merge, and upgrade a formidable army of cats to stop the relentless invasion of annoying Doge dogs!",
+            "status": "Rilis",
             "platform": "Web",
+            "judul": "Meow VS Doge",
+            "gambar": "https://img.itch.zone/aW1nLzI4NzIxNzU4LnBuZw==/original/CFuHzU.png",
             "id": "8",
-            "status": "Rilis"
+            "link": "https://pocogem.com/game/meow-vs-doge/"
         },
         {
             "deskripsi": "Area tersebut dipenuhi sampah, dan tugasmu adalah membersihkannya sembari bertahan dari serangan monster yang tiada henti.",
