@@ -93,6 +93,15 @@ const siteData = {
     ],
     "vlogs": [
         {
+            "judul": "Think and Code Game Demo Version",
+            "kategori": "Pengumuman",
+            "konten": "After undergoing various stages of development, refinement, and the addition of exciting features, we are thrilled to announce that the demo version of our game has officially launched and is ready to play.\n\nWhat Can You Enjoy in This Demo?\n1. Meet Hita and Bunga: Embark on your first coding adventure alongside Hita the bear and Bunga the adorable cat.\n2. A Seamless Mobile Experience: Try out our specially designed Custom In-Game Keyboard. Say goodbye to the frustration of your phone's keyboard obscuring the screen.\n3. Test the Scoring System: Prove your coding efficiency, collect the most stars by the end of a level, and check out the customization features to style your favorite characters.\n\nWe Need Your Feedback.\nAs this is a demo version, your feedback is crucial to us. We would love to hear about your gameplay experience. Did you encounter any annoying bugs? Were the levels too easy or too hard? Please don't hesitate to share your thoughts so we can perfect the game for its full release.",
+            "id": "2",
+            "terkait_game": "Think & Code 3D",
+            "tanggal": "26/06/2026",
+            "media_url": "https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTE1Ny5wbmc=/347x500/GdBh4P.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5NC5wbmc=/347x500/UsAI%2F6.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5OC5wbmc=/347x500/urMgYo.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5Ny5wbmc=/347x500/aCA%2BNj.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5Ni5wbmc=/347x500/UXnokr.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5NS5wbmc=/347x500/CLc5Cd.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTE2MS5wbmc=/347x500/bsAWkE.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5OS5wbmc=/347x500/9EdC5k.png"
+        },
+        {
             "konten": "In this update, we are focusing on rewarding those of you who craft code intelligently and efficiently.\n\nHere are two new systems we have just implemented:\n1. Scoring System: Write the Most Efficient Code.\nSimply completing a level is no longer enough. We have added a Scoring System at the end of each level. Your score or the number of stars you earn—is evaluated directly based on the efficiency of the code you write.\n- The More Concise, The Better: In the real world of programming, clean and effective code is key. Therefore, the more efficient the coding logic you use to complete a mission, the higher your score and star count will be.\n\n2. Character Customization & Star Shop Rewards.\nSo, what are those hard-earned stars for? Don't worry they now serve a vital purpose, as we have integrated them with the Character Customization feature.\n- Unlock Cool Attributes: You can now permanently unlock a variety of unique attributes, skins, or accessories for your character.\n- A Fair Reward System: It’s simple just exchange the stars you earned through your hard work in writing efficient code. The more you strive to craft optimal code, the faster you can deck out your favorite character in style.\n\nWith this update, we hope you won't just aim to scrape through levels, but will also feel challenged to think critically like a professional programmer in pursuit of perfect results.",
             "id": "3",
             "tanggal": "31/05/2026",
@@ -136,15 +145,6 @@ const siteData = {
             "terkait_game": "Think & Code 2D",
             "id": "7",
             "kategori": "announcement"
-        },
-        {
-            "id": "2",
-            "konten": "After undergoing various stages of development, refinement, and the addition of exciting features, we are thrilled to announce that the demo version of our game has officially launched and is ready to play.\n\nWhat Can You Enjoy in This Demo?\n1. Meet Hita and Bunga: Embark on your first coding adventure alongside Hita the bear and Bunga the adorable cat.\n2. A Seamless Mobile Experience: Try out our specially designed Custom In-Game Keyboard. Say goodbye to the frustration of your phone's keyboard obscuring the screen.\n3. Test the Scoring System: Prove your coding efficiency, collect the most stars by the end of a level, and check out the customization features to style your favorite characters.\n\nWe Need Your Feedback.\nAs this is a demo version, your feedback is crucial to us. We would love to hear about your gameplay experience. Did you encounter any annoying bugs? Were the levels too easy or too hard? Please don't hesitate to share your thoughts so we can perfect the game for its full release.",
-            "tanggal": "26/06/2026",
-            "kategori": "Pengumuman",
-            "judul": "Versi Demo Game Think and Code",
-            "terkait_game": "Think & Code 3D",
-            "media_url": "https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTE1Ny5wbmc=/347x500/GdBh4P.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5NC5wbmc=/347x500/UsAI%2F6.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5OC5wbmc=/347x500/urMgYo.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5Ny5wbmc=/347x500/aCA%2BNj.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5Ni5wbmc=/347x500/UXnokr.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5NS5wbmc=/347x500/CLc5Cd.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTE2MS5wbmc=/347x500/bsAWkE.png,https://img.itch.zone/aW1hZ2UvNDcxNjg5MS8yODEwOTA5OS5wbmc=/347x500/9EdC5k.png"
         },
         {
             "terkait_game": "Think & Code 3D",
