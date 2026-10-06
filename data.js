@@ -94,12 +94,12 @@ const siteData = {
     "vlogs": [
         {
             "konten": "Hello everyone! We have some exciting news to share in this developer update. We are officially announcing the release of \"Think and Code 2D,\" which launched to coincide with the recent TRPL Expo.\n\nWe designed this game to serve as an interactive yet fun tool for learning to code. The player's primary objective is to collect coins scattered throughout each level. Instead of using conventional directional pads or analog sticks, players control the main character by inputting lines of code—such as `move_right(1)` or `move_down(1)`.\n\nHowever, the challenge doesn't stop there. We wanted to thoroughly exercise the player's logical reasoning skills. Consequently, *Think and Code 2D* requires players not only to write code but also to read and comprehend it. In certain levels, players are presented with pre-written code sequences and must analyze them to accurately predict where the character will stop moving.\n\nThrough these mechanics, players indirectly learn crucial fundamental programming concepts—ranging from the use of variables to looping systems that make code more efficient.\n\nWe’ve wrapped all these educational concepts in a 2D pixel art style. We chose this aesthetic to create a friendly, visually pleasing experience, ensuring players can maintain their focus while solving coding puzzles.\n\nWe would like to extend a huge thank you to everyone who took the time to visit our booth and try out *Think and Code 2D* at the TRPL Expo. Your feedback and enthusiasm mean the world to us as we continue to develop this project!",
-            "terkait_game": "Think & Code 2D",
-            "judul": "Rilis Game Think and Code 2D",
-            "id": "7",
-            "media_url": "https://youtu.be/Ui6LEHmlyHE?si=j3QOBYOlLtMKWzaZ,image/Game/Think and Code 2D/ss1.png,image/Game/Think and Code 2D/ss2.png,image/Game/Think and Code 2D/ss3.png,image/Game/Think and Code 2D/ss4.png,image/Game/Think and Code 2D/ss5.png",
             "tanggal": "18/09/2025",
-            "kategori": "Pengumuman"
+            "judul": "Think and Code 2D Game Release",
+            "media_url": "https://youtu.be/Ui6LEHmlyHE?si=j3QOBYOlLtMKWzaZ,image/Game/Think and Code 2D/ss1.png,image/Game/Think and Code 2D/ss2.png,image/Game/Think and Code 2D/ss3.png,image/Game/Think and Code 2D/ss4.png,image/Game/Think and Code 2D/ss5.png",
+            "terkait_game": "Think & Code 2D",
+            "id": "7",
+            "kategori": "announcement"
         },
         {
             "tanggal": "01/04/2026",
