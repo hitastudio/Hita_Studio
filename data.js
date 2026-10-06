@@ -80,6 +80,15 @@ const siteData = {
             "platform": "Windows",
             "gambar": "https://img.itch.zone/aW1hZ2UvMzkzNTg1Ny8yMzQ2NjIyNi5wbmc=/original/zyOBUj.png",
             "link": "https://hita-studio.itch.io/death-mechanism"
+        },
+        {
+            "platform": "Window",
+            "status": "Rilis",
+            "judul": "Key Of Hell",
+            "deskripsi": "Tugasmu adalah melindungi kunci berharga ini dari cengkeraman mereka, menghadapi monster gelombang yang tak mengenal ampun, dan memastikan dunia tidak terjerumus ke dalam kekacauan yang mengerikan.",
+            "link": "https://hita-studio.itch.io/key-of-hell",
+            "gambar": "https://img.itch.zone/aW1hZ2UvMzkyMzk1NC8yMzM5NzkyMy5wbmc=/347x500/CIymUt.png",
+            "id": "10"
         }
     ],
     "vlogs": [
