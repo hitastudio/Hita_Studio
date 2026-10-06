@@ -64,13 +64,13 @@ const siteData = {
             "status": "Rilis"
         },
         {
-            "id": "5",
-            "judul": "Lumina: Akar Terakhir",
-            "deskripsi": "Bumi telah kehilangan hampir seluruh sumber kehidupannya, Sebagai satu-satunya manusia yang tersisa di sektor itu, pemain harus membangun senjata dan benteng perlindungan untuk menjaga pohon.",
-            "status": "Rilis",
             "platform": "Windows",
+            "judul": "Lumina: Akar Terakhir",
             "gambar": "https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1Ny5wbmc=/original/RkZpEe.png",
-            "link": "https://hita-studio.itch.io/lumina-akar-terakhir"
+            "link": "https://hita-studio.itch.io/lumina-akar-terakhir",
+            "id": "5",
+            "deskripsi": "Earth has lost almost all its life-sustaining resources; as the last remaining human in the sector, the player must build weapons and defensive fortifications to protect the tree.",
+            "status": "Rilis"
         },
         {
             "id": "6",
