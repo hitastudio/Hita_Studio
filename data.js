@@ -93,13 +93,13 @@ const siteData = {
     ],
     "vlogs": [
         {
-            "id": "1",
-            "tanggal": "18/07/2026",
-            "judul": "[Rilis Penuh] Think & Code 1.0.0",
-            "kategori": "Pengumuman",
             "terkait_game": "Think & Code 3D",
+            "judul": "[Rilis Penuh] Think & Code 1.0.0",
             "media_url": "https://img.itch.zone/aW1nLzI4NTYyMTk1LnBuZw==/original/8s3FBa.png",
-            "konten": "Setelah melewati proses pengembangan yang panjang, akhirnya kami merilis Think & Code Versi 1.0.0. Pada rilis penuh kali ini, kami membawa banyak pembaruan besar untuk memastikan pengalaman bermain kalian semakin maksimal.\n\nApa saja yang baru di Versi 1.0.0?\n1. Ekspansi Level Masif: Kami telah menambahkan banyak level baru yang dirancang khusus untuk menguji batasan dan kemampuan berpikir kalian.\n2. Koleksi Atribut Aksesoris: Kumpulkan dan gunakan berbagai macam aksesoris baru. \n3. 100% Gratis & Bebas Iklan: Nikmati seluruh konten dan fitur game ini secara cuma-cuma, murni tanpa adanya iklan yang mengganggu (No Ads). Kami ingin kalian fokus 100% pada keseruan gameplay.\n\nKami sangat berterima kasih atas segala dukungan, feedback, dan kesabaran yang telah kalian berikan selama ini. Silakan perbarui atau unduh game-nya sekarang juga."
+            "tanggal": "18/07/2026",
+            "id": "1",
+            "kategori": "Pengumuman",
+            "konten": "After a long development process, we are finally releasing Think & Code Version 1.0.0. This full release brings major updates to ensure you have the best possible gaming experience.\n\nWhat’s new in Version 1.0.0?\n1. Massive Level Expansion: We’ve added numerous new levels specifically designed to test your limits and thinking skills.\n2. Accessory Collection: Collect and equip a wide variety of new accessories.\n3. 100% Free & Ad-Free: Enjoy all game content and features completely free of charge, with absolutely no intrusive ads. We want you to focus 100% on the fun of the gameplay.\n\nWe are incredibly grateful for all the support, feedback, and patience you have shown us. Please update or download the game now."
         },
         {
             "id": "2",
