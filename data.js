@@ -55,13 +55,13 @@ const siteData = {
             "link": "https://hita-studio.itch.io/unmasked"
         },
         {
-            "id": "4",
             "judul": "Eatherwave Isle",
-            "deskripsi": "Bertahan hidup di pulau piksel 2D dengan mengumpulkan sumber daya, membangun tempat berlindung, dan memperkuat markasmu.",
-            "status": "Rilis",
-            "platform": "Windows",
+            "id": "4",
+            "deskripsi": "Survive on a 2D pixel island by gathering resources, building a shelter, and fortifying your base.",
+            "link": "https://hita-studio.itch.io/eather",
             "gambar": "https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxMS5wbmc=/original/%2FhIdaI.png",
-            "link": "https://hita-studio.itch.io/eather"
+            "platform": "Windows",
+            "status": "Rilis"
         },
         {
             "id": "5",
