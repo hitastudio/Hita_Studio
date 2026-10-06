@@ -1,13 +1,13 @@
 const siteData = {
     "games": [
         {
-            "platform": "Windows,Android",
-            "id": "1",
             "status": "Rilis",
-            "judul": "Think & Code 3D",
+            "platform": "Windows,Android",
+            "deskripsi": "In this game, players learn the basics of programming, such as movement commands, loops, and logic, while solving challenges step-by-step.",
+            "link": "https://hita-studio.itch.io/think-and-code",
             "gambar": "image/Game/Think and Code 3D/hita.png",
-            "deskripsi": "Di game ini, pemain belajar memahami cara kerja pemrograman dasar seperti perintah gerak, pengulangan, dan logika, sambil memecahkan tantangan secara bertahap.",
-            "link": "https://hita-studio.itch.io/think-and-code"
+            "judul": "Think & Code 3D",
+            "id": "1"
         },
         {
             "gambar": "https://img.itch.zone/aW1nLzI4NjU3ODQ0LnBuZw==/original/06THRB.png",
