@@ -28,6 +28,15 @@ const siteData = {
             "status": "Rilis"
         },
         {
+            "deskripsi": "Area tersebut dipenuhi sampah, dan tugasmu adalah membersihkannya sembari bertahan dari serangan monster yang tiada henti.",
+            "link": "https://hita-studio.itch.io/suck-and-shoot",
+            "platform": "Web",
+            "gambar": "https://img.itch.zone/aW1nLzMwNTczMDU4LnBuZw==/105x83%23/MT4qWx.png",
+            "judul": "Suck and Shoot",
+            "status": "Tahap Konsep",
+            "id": "9"
+        },
+        {
             "id": "2",
             "judul": "Think & Code 2D",
             "deskripsi": "Game edukasi berbasis web yang dirancang untuk membantu anak mengenal dasar logika pemrograman dengan cara yang menyenangkan.",
