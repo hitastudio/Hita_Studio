@@ -158,6 +158,14 @@ const siteData = {
     ],
     "pencapaian": [
         {
+            "nama": "GitHub Game Off 2025",
+            "tanggal": "1 Oktober 2025",
+            "galeri": "https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxMS5wbmc=/347x500/QCcUu%2B.png, https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxMC5wbmc=/347x500/mGjGL7.png,https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxNC5wbmc=/original/Cp9llm.png,https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxNS5wbmc=/347x500/OAqfP8.png",
+            "gambar": "image/Galeri/GitHub Game Off 2025/Icon.png",
+            "id": "4",
+            "deskripsi": "Hita Studio once again put its skills to the test in Game Off 2025, a prestigious global annual event hosted by GitHub. Responding to the theme \"WAVES,\" we created Eatherwave Isle. This survival game interprets the theme through waves of monster attacks that occur every night; players must gather resources and build defenses during the day to survive. The project earned community acclaim for its pixel art style and detailed lighting system. The event also provided invaluable feedback regarding the balancing of energy mechanics and game pacing for future development."
+        },
+        {
             "id": "6",
             "gambar": "image/Galeri/Alchemy Jam/Icon.png",
             "nama": "Alchemy Jam #6",
@@ -196,14 +204,6 @@ const siteData = {
             "deskripsi": "Hita Studio secara resmi berpartisipasi dalam pameran teknologi yang diselenggarakan oleh program studi Teknologi Rekayasa Perangkat Lunak (TRPL) Polinela. Partisipasi ini merupakan wujud komitmen kami dalam mendukung pengembangan ekosistem pendidikan berbasis teknologi di lingkungan akademis.\n\nDalam ajang pameran ini, Hita Studio memamerkan produk unggulan kami, \"Think and Code\". Game edukasi interaktif ini dikembangkan untuk menjadi solusi pembelajaran mandiri yang efektif dalam memperkenalkan konsep logika dasar pemrograman kepada anak-anak.\n\nKeunggulan dari \"Think and Code\" terletak pada metodologi joyful learning yang diterapkan. Kami mengintegrasikan tantangan pemecahan masalah (problem-solving) ke dalam mekanisme permainan yang intuitif, sehingga anak-anak dapat mempelajari algoritma dasar tanpa merasa terbebani. Harapan kami, melalui keterlibatan dalam pameran di Polinela ini, semakin banyak pendidik dan praktisi teknologi yang terinspirasi untuk terus menciptakan media pembelajaran yang inklusif dan solutif bagi generasi mendatang.",
             "gambar": "image/Galeri/Expo Prodi TRPL Polinela/dekomentasi_1.jpeg",
             "galeri": "image/Galeri/Expo Prodi TRPL Polinela/dekomentasi_3.jpeg,image/Galeri/Expo Prodi TRPL Polinela/dekomentasi_2.jpeg,image/Game/Think and Code 2D/ss1.png,image/Game/Think and Code 2D/ss2.png,image/Game/Think and Code 2D/ss3.png,image/Game/Think and Code 2D/ss4.png,image/Game/Think and Code 2D/ss5.png"
-        },
-        {
-            "id": "4",
-            "tanggal": " 2 November 2025",
-            "nama": "GitHub Game Off 2025",
-            "deskripsi": "Hita Studio kembali menguji kemampuan dalam Game Off 2025, ajang tahunan bergengsi berskala global yang diselenggarakan oleh GitHub. Merespons tema \"WAVES\", kami menciptakan Eatherwave Isle. Game survival ini menginterpretasikan tema tersebut sebagai gelombang serangan monster yang datang setiap malam. Pemain dituntut untuk mengumpulkan sumber daya dan membangun pertahanan di siang hari agar bisa bertahan. Karya ini mendapat apresiasi dari komunitas atas gaya pixel art dan sistem pencahayaannya yang detail. Ajang ini juga memberikan kami feedback yang sangat berharga terkait keseimbangan (balancing) mekanik energi dan tempo permainan untuk pengembangan selanjutnya.",
-            "gambar": "image/Galeri/GitHub Game Off 2025/Icon.png",
-            "galeri": "https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxMS5wbmc=/347x500/QCcUu%2B.png, https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxMC5wbmc=/347x500/mGjGL7.png,https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxNC5wbmc=/original/Cp9llm.png,https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxNS5wbmc=/347x500/OAqfP8.png"
         },
         {
             "id": "5",
