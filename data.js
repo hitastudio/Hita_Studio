@@ -10,13 +10,13 @@ const siteData = {
             "id": "1"
         },
         {
-            "gambar": "https://img.itch.zone/aW1nLzI4NjU3ODQ0LnBuZw==/original/06THRB.png",
-            "platform": "Web",
-            "deskripsi": "Idle game yang nyaman dan menenangkan, terinspirasi oleh kegiatan damai menghitung domba. Bersantailah, saksikan kawanan dombamu bertambah banyak, biarkan anjing penggembala memandu jalan, dan hanyutlah ke dalam dunia mimpi yang menenangkan.",
             "judul": "Sleepy Flock",
-            "id": "7",
+            "gambar": "https://img.itch.zone/aW1nLzI4NjU3ODQ0LnBuZw==/original/06THRB.png",
+            "deskripsi": "A cozy and relaxing idle game inspired by the peaceful act of counting sheep. Unwind, watch your flock grow, let the sheepdog lead the way, and drift into a soothing dream world.",
+            "link": "https://pocogem.com/game/sleepy-flock/",
             "status": "Rilis",
-            "link": "https://pocogem.com/game/sleepy-flock/"
+            "id": "7",
+            "platform": "Web"
         },
         {
             "gambar": "https://img.itch.zone/aW1nLzI4NzIxNzU4LnBuZw==/original/CFuHzU.png",
