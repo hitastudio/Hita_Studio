@@ -158,6 +158,14 @@ const siteData = {
     ],
     "pencapaian": [
         {
+            "tanggal": "30 Januari 2026",
+            "galeri": "image/Galeri/igg game jam 2026/sertifikat.jpeg,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMy5wbmc=/347x500/h0pGlt.png,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMC5wbmc=/347x500/jujzSP.png,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMS5wbmc=/347x500/14X8pd.png,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMi5wbmc=/347x500/IfwrUx.png",
+            "deskripsi": "Hita Studio participated in the IGG Game Jam 2026. In this competition, we were challenged to create a game from scratch in just 48 hours. It was from this intense challenge that UNMASKED, a memory-based platformer was born, successfully capturing the attention of players.",
+            "nama": "IGG Game Jam 2026",
+            "id": "2",
+            "gambar": "image/Galeri/igg game jam 2026/Icon.png"
+        },
+        {
             "nama": "GitHub Game Off 2025",
             "tanggal": "1 Oktober 2025",
             "galeri": "https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxMS5wbmc=/347x500/QCcUu%2B.png, https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxMC5wbmc=/347x500/mGjGL7.png,https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxNC5wbmc=/original/Cp9llm.png,https://img.itch.zone/aW1hZ2UvNDA4MzgzOC8yNDM0MjQxNS5wbmc=/347x500/OAqfP8.png",
@@ -188,14 +196,6 @@ const siteData = {
             "deskripsi": "Hita Studio berpartisipasi dalam ajang GDGoC UNSRI Game Jam 2026: Spawn Point. Dalam kompetisi ini, kami ditantang untuk merancang dan membangun game dari nol secara penuh dalam waktu 7 hari. Dari tantangan inilah lahir Lumina: Akar Terakhir, sebuah game di mana pemain harus meracik strategi, membangun senjata, dan mendirikan benteng untuk melindungi pohon kehidupan terakhir dari invasi alien.",
             "gambar": "image/Galeri/GDGoC UNSRI Game Jam 2026/Icon.png",
             "galeri": "image/Galeri/GDGoC UNSRI Game Jam 2026/dekomentasi1.jpeg,image/Galeri/GDGoC UNSRI Game Jam 2026/dekomentasi2.jpeg,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1NS5wbmc=/347x500/i4%2BDhK.png,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1Ni5wbmc=/347x500/xWCh9d.png,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1Ny5wbmc=/347x500/4iYLY8.png,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1OC5wbmc=/347x500/9xt0mA.png,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU1OS5wbmc=/347x500/1yBiHE.png,https://img.itch.zone/aW1hZ2UvNDQ2NjkzOC8yNjYyOTU2MC5wbmc=/347x500/LGPH%2FI.png"
-        },
-        {
-            "id": "2",
-            "tanggal": "30 Januari 2026",
-            "nama": "IGG Game Jam 2026",
-            "deskripsi": "Hita Studio berpartisipasi dalam ajang IGG Game Jam 2026. Dalam kompetisi ini, kami ditantang untuk membuat game dari nol hanya dalam waktu 48 jam. Dari tantangan singkat inilah UNMASKED, sebuah game memory platformer, lahir dan berhasil menarik perhatian para pemain.",
-            "gambar": "image/Galeri/igg game jam 2026/Icon.png",
-            "galeri": "image/Galeri/igg game jam 2026/sertifikat.jpeg,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMy5wbmc=/347x500/h0pGlt.png,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMC5wbmc=/347x500/jujzSP.png,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMS5wbmc=/347x500/14X8pd.png,https://img.itch.zone/aW1hZ2UvNDI5MDkyOS8yNTU4OTUzMi5wbmc=/347x500/IfwrUx.png"
         },
         {
             "id": "3",
