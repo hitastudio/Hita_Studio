@@ -261,7 +261,7 @@ function renderGames() {
                 ${getPlatformIcons(g.platform)}
                 <p class="text-gray-600 text-sm flex-grow my-4 leading-relaxed">${g.deskripsi}</p>
                 <div class="mt-auto">
-                    ${g.link && g.link !== '#' ? `<a href="${g.link}" target="_blank" class="inline-block text-center w-full bg-gray-100 hover:bg-brand-500 text-gray-800 hover:text-white text-sm font-semibold py-2.5 rounded-lg transition">Lihat Game</a>` : `<button disabled class="w-full bg-gray-100 text-gray-400 border border-gray-200 text-sm font-medium py-2.5 rounded-lg cursor-not-allowed">Belum Ada Link</button>`}
+                    ${g.link && g.link !== '#' ? `<a href="${g.link}" target="_blank" class="inline-block text-center w-full bg-gray-100 hover:bg-brand-500 text-gray-800 hover:text-white text-sm font-semibold py-2.5 rounded-lg transition">View Game</a>` : `<button disabled class="w-full bg-gray-100 text-gray-400 border border-gray-200 text-sm font-medium py-2.5 rounded-lg cursor-not-allowed">Belum Ada Link</button>`}
                 </div>
             </div>
         </div>`;
