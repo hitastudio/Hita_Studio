@@ -63,6 +63,7 @@ window.onload = () => {
             link.addEventListener('click', closeMobileMenu);
         });
     }
+    initScrollNav();
 };
 
 function renderHeroSlider() {
@@ -716,4 +717,73 @@ function changePage(type, page) {
         currentPagePencapaian = page;
         renderPencapaian();
     }
+}
+
+function initThemeToggle() {
+    const desktopBtn = document.getElementById('theme-toggle');
+    const mobileBtn = document.getElementById('theme-toggle-mobile');
+    
+    const darkIcons = document.querySelectorAll('#theme-toggle-dark-icon, #theme-toggle-dark-icon-mobile');
+    const lightIcons = document.querySelectorAll('#theme-toggle-light-icon, #theme-toggle-light-icon-mobile');
+
+    function updateIcons(isDark) {
+        darkIcons.forEach(icon => isDark ? icon.classList.add('hidden') : icon.classList.remove('hidden'));
+        lightIcons.forEach(icon => isDark ? icon.classList.remove('hidden') : icon.classList.add('hidden'));
+    }
+
+    const isDarkMode = localStorage.getItem('color-theme') === 'dark' || 
+        (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+    if (isDarkMode) {
+        document.documentElement.classList.add('dark');
+        updateIcons(true);
+    } else {
+        document.documentElement.classList.remove('dark');
+        updateIcons(false);
+    }
+
+    function toggleTheme() {
+        if (document.documentElement.classList.contains('dark')) {
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem('color-theme', 'light');
+            updateIcons(false);
+        } else {
+            document.documentElement.classList.add('dark');
+            localStorage.setItem('color-theme', 'dark');
+            updateIcons(true);
+        }
+    }
+
+    if (desktopBtn) desktopBtn.addEventListener('click', toggleTheme);
+    if (mobileBtn) mobileBtn.addEventListener('click', toggleTheme);
+}
+
+// Panggil fungsi di window.onload
+const existingOnload = window.onload;
+window.onload = () => {
+    if (existingOnload) existingOnload();
+    initThemeToggle();
+    initScrollNav();
+};
+
+function initScrollNav() {
+    const nav = document.querySelector('nav');
+    if (!nav) return;
+
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener('scroll', () => {
+        const currentScrollY = window.scrollY;
+
+        // Jika scroll ke bawah lebih dari 50px, sembunyikan nav ke atas
+        if (currentScrollY > lastScrollY && currentScrollY > 50) {
+            nav.classList.add('nav-hidden');
+        } 
+        // Jika scroll ke atas, munculkan kembali nav
+        else if (currentScrollY < lastScrollY) {
+            nav.classList.remove('nav-hidden');
+        }
+
+        lastScrollY = currentScrollY;
+    });
 }

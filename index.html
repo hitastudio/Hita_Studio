@@ -36,24 +36,34 @@
 
     <div class="absolute top-0 right-0 w-full md:w-2/3 h-2/3 bg-brand-500/5 blur-[120px] md:blur-[150px] rounded-full pointer-events-none z-0"></div>
 
-    <nav class="fixed w-full z-50 glass-nav transition-all duration-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-20">
+    <nav class="fixed top-3 sm:top-4 inset-x-3 sm:inset-x-6 max-w-7xl mx-auto z-50 glass-nav rounded-2xl transition-all duration-300">
+        <div class="px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16 md:h-20">
+                <!-- Isi nav (Logo, Menu, Tombol Dark Mode) tetap sama -->
                 <div class="flex items-center select-none cursor-pointer" onclick="window.scrollTo(0,0)">
-                    <img src="image/Logo/Icon%20Hita.png" alt="Hita Studio Logo" class="h-10 md:h-12 w-auto object-contain hover:scale-105 transition-transform duration-300" onerror="this.src='https://ui-avatars.com/api/?name=Hita+Studio&background=f97316&color=fff'">
+                    <img src="image/Logo/Icon%20Hita.png" alt="Hita Studio Logo" class="h-10 md:h-12 w-auto object-contain hover:scale-105 transition-transform duration-300" onerror="this.src='https://ui-avatars.com/api/?name=Hita+Studio&background=16a34a&color=fff'">
                 </div>
                 
                 <div class="hidden md:flex items-center space-x-6 lg:space-x-8">
-                    <a href="#about" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition">Beranda</a>
-                    <a href="#karya" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition">Games & Devlog</a>
-                    <a href="#pencapaian" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition">Experience</a>
+                    <a href="#about" class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-brand-600 transition">Beranda</a>
+                    <a href="#karya" class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-brand-600 transition">Games & Devlog</a>
+                    <a href="#pencapaian" class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-brand-600 transition">Experience</a>
+                    <!-- Tombol Dark Mode Desktop -->
+                    <button id="theme-toggle" type="button" class="p-2 rounded-lg text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none transition">
+                        <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                        <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    </button>
                 </div>
 
-                <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-brand-600 focus:outline-none p-2 -mr-2">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
+                <div class="md:hidden flex items-center space-x-2">
+                    <!-- Tombol Dark Mode Mobile -->
+                    <button id="theme-toggle-mobile" type="button" class="p-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none transition">
+                        <svg id="theme-toggle-dark-icon-mobile" class="hidden w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                        <svg id="theme-toggle-light-icon-mobile" class="hidden w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    </button>
+                    <!-- Tombol Hamburger Mobile -->
+                    <button id="mobile-menu-btn" class="text-gray-700 dark:text-gray-300 hover:text-brand-600 focus:outline-none p-2 -mr-2">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                     </button>
                 </div>
             </div>

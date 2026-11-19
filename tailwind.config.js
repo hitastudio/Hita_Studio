@@ -1,4 +1,5 @@
 tailwind.config = {
+    darkMode: 'class', // <--- Tambahkan baris ini
     theme: {
         extend: {
             fontFamily: { 
@@ -6,7 +7,7 @@ tailwind.config = {
                 heading: ['Outfit', 'sans-serif'] 
             },
             colors: { 
-                brand: { 500: '#f97316', 600: '#ea580c' } 
+                brand: { 500: '#16a34a', 600: '#16a34a' } 
             }
         }
     }
