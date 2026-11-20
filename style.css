@@ -221,3 +221,13 @@ html.dark .animate-float {
     opacity: 0 !important;
     pointer-events: none !important;
 }
+
+/* FIX HOVER HIJAU NAVIGASI & FOOTER */
+.footer-link {
+    transition: color 0.2s ease;
+}
+
+.footer-link:hover,
+html.dark .footer-link:hover {
+    color: #22c55e !important; /* Warna Hijau Studio */
+}
