@@ -1,13 +1,13 @@
 const siteData = {
     "games": [
         {
+            "judul": "Think & Code 3D",
+            "gambar": "https://img.itch.zone/aW1nLzI4NTYyMTk1LnBuZw==/original/8s3FBa.png",
             "status": "Rilis",
             "platform": "Windows,Android",
             "deskripsi": "In this game, players learn the basics of programming, such as movement commands, loops, and logic, while solving challenges step-by-step.",
-            "link": "https://hita-studio.itch.io/think-and-code",
-            "gambar": "image/Game/Think and Code 3D/hita.png",
-            "judul": "Think & Code 3D",
-            "id": "1"
+            "id": "1",
+            "link": "https://hita-studio.itch.io/think-and-code"
         },
         {
             "judul": "Sleepy Flock",
