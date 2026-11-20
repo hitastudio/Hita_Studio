@@ -117,6 +117,9 @@ html.dark .glass-nav {
     animation: float 6s ease-in-out infinite;
 }
 
+/* ==========================================
+   SMOOTH HERO CARD STACK SLIDER
+   ========================================== */
 #hero-slider-container {
     perspective: 1000px;
     transform-style: preserve-3d;
@@ -124,41 +127,52 @@ html.dark .glass-nav {
 
 .slide-card {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
     height: 100%;
     border-radius: 1.5rem; 
     object-fit: cover;
-    transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); 
+    /* Easing yang mulus tanpa efek per berlebihan */
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), 
+                opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+                box-shadow 0.6s ease; 
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
     cursor: pointer;
-    border: 6px solid white; 
+    border: 5px solid white; 
+    will-change: transform, opacity;
 }
 
+/* Kartu Depan (Utama) */
 .card-front {
-    transform: translate(0, 0) scale(1) rotate(0deg);
-    z-index: 3;
+    transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+    z-index: 30;
     opacity: 1;
+    pointer-events: auto;
 }
 
+/* Kartu Tumpukan Kedua (Menyembul Ke Kiri) */
 .card-middle {
-    transform: translate(-8%, 6%) scale(0.95) rotate(-6deg);
-    z-index: 2;
-    opacity: 0.9;
+    transform: translate3d(-10%, 5%, -20px) scale(0.95) rotate(-7deg);
+    z-index: 20;
+    opacity: 0.85;
+    pointer-events: none;
 }
 
+/* Kartu Tumpukan Ketiga (Menyembul Ke Kanan) */
 .card-back {
-    transform: translate(8%, 12%) scale(0.9) rotate(8deg);
-    z-index: 1;
+    transform: translate3d(10%, 9%, -40px) scale(0.90) rotate(8deg);
+    z-index: 10;
     opacity: 0.7;
+    pointer-events: none;
 }
 
+/* Kartu Keluar / Sembunyi (Slide melayang ke atas halus) */
 .card-hidden {
-    transform: translate(0, -40px) scale(1.05) rotate(0deg);
+    transform: translate3d(0, -25px, -60px) scale(0.88) rotate(0deg);
     z-index: 0;
     opacity: 0;
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 

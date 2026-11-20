@@ -1,5 +1,5 @@
 tailwind.config = {
-    darkMode: 'class', // <--- Tambahkan baris ini
+    darkMode: 'class', 
     theme: {
         extend: {
             fontFamily: { 
