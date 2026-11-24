@@ -10,13 +10,13 @@ const siteData = {
             "link": "https://hita-studio.itch.io/think-and-code"
         },
         {
-            "link": "https://hita-studio.itch.io/switch-on",
+            "gambar": "https://img.itch.zone/aW1nLzMyNjY0NzY0LnBuZw==/315x250%23c/HPfVPK.png",
+            "id": "11",
+            "judul": "Switch On!",
             "deskripsi": "An interactive educational puzzle game that invites players to learn and understand the basic concepts of logic gates (AND, OR, NOT) in a fun way.",
             "platform": "Windows, Web",
-            "gambar": "https://img.itch.zone/aW1nLzMyNjY0NzY0LnBuZw==/315x250%23c/HPfVPK.png",
-            "status": "Early Access",
-            "judul": "Switch On!",
-            "id": "11"
+            "status": "Rilis",
+            "link": "https://hita-studio.itch.io/switch-on"
         },
         {
             "status": "Rilis",
